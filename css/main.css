@@ -1,3 +1,8 @@
+body{
+  font-family: 'Roboto' ;
+  font-weight: 400;
+  font-size: 14px;
+}
 .nav {
     justify-content: space-between;
 }
@@ -20,14 +25,21 @@
   margin-top:7px;
 }
 .background-img {
-    background-image: url("https://super-travels.com/wp-content/uploads/2017/03/4MjEQfT.jpg");
+    background-image: url("../img/fotoconvoca.jpg");
+    background-size: cover;
 }
 #banner-home, #mapa {
     margin-top: 60px;
+    border-bottom: 6px solid #fff;
+}
+#banner-home .background-img{
+  height: calc(100vh - 60px);
 }
 .pad-banner {
+  text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    color: #fff;
 }
 footer {
     background-color: black;
@@ -48,6 +60,62 @@ footer {
 
 .conta:hover .middle {
     opacity: 1;
+}
+.btn-danger{
+  border-radius: 10px;
+}
+.ban{
+  position: relative;
+  background: url("https://super-travels.com/wp-content/uploads/2017/03/4MjEQfT.jpg");
+  height: 100px;
+  padding-top: 10px;
+}
+.ban:before{
+  content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(to left,#002f4b , #FF4000 30%);
+	opacity: .8;
+}
+.tex{
+  color:#FF4000;
+  font-size: 14px;
+  padding: 15px 0;
+  width: 82%;
+}
+.bord{
+  width: 82%;
+  position: relative;
+  height: 2px;
+  background: linear-gradient(to left,#fff , #FF4000 60%);
+}
+.tex-mas{
+  color:#000;
+  font-size: 14px;
+  padding: 15px 0;
+  width: 82%;
+}
+.morecontent span {
+    display: none;
+}
+.morelink {
+    margin: 10px;
+    color: #ff4000;
+    display: block;
+    float: right;
+    text-decoration: none !important;
+    border: 1px solid #ff4000;
+    padding: 0px 5px;
+    border-radius: 7px;
+    transition: all .6s ease;
+    font-size: 12px;
+}
+.morelink:hover{
+  color: #ff4000;
+  font-size: 14px;
 }
 .modal-backdrop {
     z-index: 0 !important;
