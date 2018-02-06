@@ -1,7 +1,23 @@
 .nav {
-    display: flex;
-    width: 88%;
     justify-content: space-between;
+}
+.logo1{
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+.logo2{
+  height: 30px;
+  padding-left: 10px;
+  width: 100px;
+  border-left: 2px solid #fff;
+}
+.navbar-left li{
+  margin:0 2em;
+}
+.navbar-left li button{
+  margin-top:7px;
 }
 .background-img {
     background-image: url("https://super-travels.com/wp-content/uploads/2017/03/4MjEQfT.jpg");

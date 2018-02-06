@@ -11,26 +11,34 @@
     <link rel="stylesheet" href="iconmoon/style.css">
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding: 5px 15px;">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding: 5px 15px;border-bottom:3px solid #fff;background:#000;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        <div class="navbar-header col-sm-3">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
             <a class="" href="http://convoca.pe/">
-                <img height="30" src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png">
-                <img height="30" src="http://conboca.pe/img/logo-conboca.png">
+                <img class="logo1"src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png">
+                <img class="logo2"src="http://conboca.pe/img/logo-conboca.png">
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="/">Quiénes somos</a></li>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="/">Quiénes somos</a></li>
                 <li><button class="btn btn-danger">Haz tu aporte</button></li>
                 <li class=""><a href="/mapa">Cómo involucrarte</a></li>
                 <li class=""><a href="/#">Agenda</a></li>
-                <li><a href="#inicio"><span class="icon-home"></span></a></li>
-                <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open('http://www.facebook.com/share.php?u='+dir2+'&amp;t='+tit2+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0"><span class="icon-facebook"></span></a></li>
-                <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open('http://twitter.com/?status='+tit2+'%20'+dir+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0"><span class="icon-twitter"></span></a></li>
+              </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#inicio"><span class="icon-home"></span></a></li>
+              <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open('http://www.facebook.com/share.php?u='+dir2+'&amp;t='+tit2+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0"><span class="icon-facebook"></span></a></li>
+              <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open('http://twitter.com/?status='+tit2+'%20'+dir+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0"><span class="icon-twitter"></span></a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
