@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+}
+.background-img {
+    background-image: url("https://super-travels.com/wp-content/uploads/2017/03/4MjEQfT.jpg");
+}
+#banner-home, #mapa {
+    margin-top: 60px;
+}
+.pad-banner {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+.publicado {
+    font-size: 11px;
+}
+.div-iframe {
+    height: 680px;
+}
+.item-carousel-convoca img{
+    height: 250px;
+}
+.conta:hover .image {
+    opacity: 0.3;
+}
+
+.conta:hover .middle {
+    opacity: 1;
+}
