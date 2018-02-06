@@ -65,7 +65,7 @@
         </div>
     </div>
 </section>
-<section id="about">
+<section id="about" style="padding-bottom:30px;">
     <div class="ban ">
             <div class="container" style="position:relative;color:#fff;">
               <h1>¿Quiénes somos?</h1>
