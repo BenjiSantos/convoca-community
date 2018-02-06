@@ -10,6 +10,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="iconmoon/style.css">
+    <link type="text/javascript" href="js/code.js">
+
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding: 5px 15px;border-bottom:3px solid #fff;background:#000;">
@@ -64,22 +66,31 @@
     </div>
 </section>
 <section id="about">
-    <div class="container-fluid background-img">
-        <div class="container">
-            <h1>¿Quiénes somos?</h1>
-        </div>
+    <div class="ban ">
+            <div class="container" style="position:relative;color:#fff;">
+              <h1>¿Quiénes somos?</h1>
+            </div>
     </div>
-    <div class="container">
-        <p>Convoca es un medio digital de periodismo de investigación</p>
-        <p>Convoca es un medio digital de periodismo de investigación</p>
+    <div class="container tex">
+        <p>Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, ganador de los Data Journalism Awards 2016,finalista del Premio Iberoamericano Gabriel García Márquez y miembro del equipo ganador del Premio Excelencia Periodística de la Sociedad Interamericana de Prensa 2016 en la categoría "Relaciones Interamericanas".</p>
+    </div>
+    <div class="container bord" >
+
+    </div>
+    <div class="container tex-mas">
+      <h3>Nuestra apuesta / Periodismo es servicio público</h3>
+      <span class="more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
     </div>
 </section>
 <section id="our-work">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-1 background-img">
+          <div class="col-md-1">
 
-            </div>
+          </div>
             <div class="col-md-11 background-img">
                 <h1>Nuestro trabajo</h1>
             </div>
@@ -202,5 +213,43 @@
         </div>
     </div>
 </footer>
+<script type="text/javascript">
+$(document).ready(function() {
+    // Configure/customize these variables.
+    var showChar = 330;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Leer mas";
+    var lesstext = "Leer menos";
+
+
+    $('.more').each(function() {
+        var content = $(this).html();
+
+        if(content.length > showChar) {
+
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+
+            var html = c + '<span class="moreellipses">&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+
+            $(this).html(html);
+        }
+
+    });
+
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+});
+</script>
 </body>
 </html>
