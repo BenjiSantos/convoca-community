@@ -4,6 +4,7 @@
     <title>CONVOCA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -46,17 +47,17 @@
 <section id="banner-home">
     <div class="container-fluid">
         <div class="row background-img">
-            <div class="col-md-3">
+            <div class="col-md-2">
 
             </div>
-            <div class="col-md-6 pad-banner">
-                <h1>Comunidad ConBoca</h1>
+            <div class="col-md-8 pad-banner">
+                <h1 style="font-size: 60px;">Comunidad ConBoca</h1>
                 <p>Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
-                de gran impacto para llegar a quienes nos gobiernan</p>
+                de gran impacto para llegar a quienes nos gobiernan.</p>
                 <br>
-                <button class="btn btn-danger">Explorar</button>
+                <button class="btn btn-danger" style="padding:5px 30px;">Explorar</button>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
 
             </div>
         </div>
