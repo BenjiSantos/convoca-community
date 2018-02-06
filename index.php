@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="iconmoon/style.css">
-</head>
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding: 5px 15px;border-bottom:3px solid #fff;background:#000;">
     <div class="container-fluid">
@@ -132,6 +132,184 @@
             <h1></h1>
         </div>
     </div>
+
+    <div class="modal fade" id="donar-paypal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-mensaje" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <div class="mensaje-donar">
+                        <h3>Muchas gracias por tu  aporte al periodismo de investigación</h3>
+
+                        <p class="paypal-mostrar">Dale clic al botón para concretar tu donación por Paypal.</p>
+
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="boton-donar">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="FCVHK2NPG66SA">
+                            <input type="image" src="http://convoca.pe/_images/botonrojo.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div class="modal fade" id="donar-transferencia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-mensaje" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <div class="mensaje-donar">
+
+                        <h3>Muchas gracias por tu  aporte al periodismo de investigación</h3>
+                        <div class="dato-cuenta">
+                            <h3 class="color-1">Cuenta BCP</h3>
+                            <p><b>Código de cuenta interbancario (CCI):</b> 002-193-002265763103-16</p>
+                            <p><b>Código de cuenta:</b> 193-2265763-1-03</p>
+                            <p><b>Moneda:</b> Dólares</p>
+                            <p><b>Titular:</b> Asociación Convoca</p>
+                            <br>
+                            <p>*Para la confirmación de tu donación envianos el comprobante scaneado a comunidad@conboca.pe. Con tu aporte publicaremos nuevas investigaciones y aplicaciones web para beneficio de los ciudadanos.</p>
+                            <br>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="apuesta"></div>
+    <div class="bloque2">
+        <div class="bloque2_bloque">
+            <p><b>Con<span class="color-1">B</span>oca:El poder del llamado ciudadano</b> es la primera campaña de recolección de fondos de <b>Convoca</b>, que está enfocada en hacer crecer nuestra comunidad con el aporte de todos los ciudadanos a nivel global. Apostamos por el financiamiento colectivo para generar investigaciones con plena independencia y rigurosidad. Investigar el poder a fondo implica asumir altos riesgos y costos para cualquier grupo humano. En <b>Convoca</b> decidimos emprender ese camino porque creemos que si algún poder tiene el periodismo es cuando investiga, y este esfuerzo se potencia cuando se involucran los ciudadanos. </p>
+            <p> Creemos que necesitamos ser muchos para armar todas las piezas del rompecabezas de hechos ocultos que afectan nuestras vidas. A partir de hoy y durante 100 días puedes ser la voz de esta campaña para generar cambios con impacto global. Únete con el hashtag <b class="color-1">#ConBoca100mil</b> y conoce los beneficios de ser un embajador del periodismo independiente.</p>
+            <br><br>
+            <div id="formulario">
+
+                <form action="" class="form-datos ">
+                    <h3>¿Cuánto deseas donar?</h3>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <div class="radio">
+                                <label><input type="radio" name="monto" class="monto" value="De1a10" required>De US$ 1 a US$ 10</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="monto" class="monto" value="De11a20">De US$ 11 a US$ 20</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="monto" class="monto" value="De21a30">De US$ 21 a US$ 30</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="monto" class="monto" value="De31amas">Otro</label>
+                            </div>
+                        </div>
+                        <div class="form-inline">
+                            <div class="form-group">
+                                <label for="">Monto</label>
+                                <input type="text" name="monto_donacion" class="form-control" required>
+                            </div>
+                            <br>
+                            <p class="nota-monto">*El tope de donación por persona es hasta 1,500 dólares. Si eres un ciudadano u organización que quiere donar por encima de este monto, escríbenos a info@convoca.pe. Creemos que la transparencia en la recolección de los fondos de esta campaña es fundamental.</p>
+                        </div>
+
+                    </div>
+                    <h3>Elije como donar</h3>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <div class="radio">
+                                <label><input type="radio" name="medio" class="medio" value="paypal" required>Paypal</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="medio" class="medio" value="tarjeta">Tarjeta Crédito o Débito</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="medio" class="medio" value="transferencia">Depósito</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h3>Déjanos tus datos</h3>
+
+
+
+                    <div class="form-group row">
+                        <label for="nombre_completo" class="col-xs-3 col-form-label form-donar">Nombre completo</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="text" name="nombre_completo" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="nombre_completo" class="col-xs-3 col-form-label form-donar">Correo electronico</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="text" name="correo" required>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar datos" class="btn-datos" id="submit">
+                </form>
+
+                <script src="js/vendor/jquery-1.11.2.min.js"></script>
+
+                <script src="js/vendor/bootstrap.min.js"></script>
+                <script src="owl-carousel/owl.carousel.js"></script>
+
+                <script>
+                    $('#myModal').on('shown.bs.modal', function () {
+                        $('#myInput').focus()
+                    })
+                </script>
+
+                <script>
+                    $(document).ready(function(){
+                        $("#submit").click(function(){
+                            var nombre_completo = $("input[name='nombre_completo']").val();
+                            var correo = $("input[name='correo']").val();
+                            var monto = $("input[name='monto']:checked").val();
+                            var monto_donacion = $("input[name='monto_donacion']").val();
+                            var medio = $("input[name='medio']:checked").val();
+
+                            // Returns successful data submission message when the entered information is stored in database.
+                            var dataString = 'nombre_completo='+ nombre_completo + '&correo='+ correo + '&monto='+ monto+ '&monto_donacion='+ monto_donacion+'&medio='+ medio;
+
+                            // AJAX Code To Submit Form.
+                            $.ajax({
+                                type: "POST",
+                                url: "prueba.php",
+                                data: dataString,
+                                cache: false,
+                                success: function(result){
+                                    if(medio === "transferencia") {
+                                        $('#donar-transferencia').modal('show');
+                                        $('#donar').modal('hide');
+                                    }else {
+                                        $('#donar-paypal').modal('show');
+                                        $('#donar').modal('hide');
+                                    }
+
+                                }
+                            });
+
+                            return false;
+                        });
+
+                    });
+                </script>
+
+            </div>
 </section>
 <footer class="container-fluid">
     <div class="row">
