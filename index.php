@@ -143,7 +143,7 @@
     </div>
 </section>
 <section id="aporte">
-  <div class="ban ">
+  <div class="ban">
           <div class="container" style="position:relative;color:#fff;">
             <h1>HAZ TU APORTE</h1>
           </div>
@@ -324,8 +324,180 @@
 
                     });
                 </script>
+            </div>
+</section>
+<section id="beneficios">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1">
 
             </div>
+            <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
+                <div  style="position:relative;color:#fff;">
+                    <h1 style="margin-top:0px;">Los beneficios</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pad-list">
+        <div class="aportes__lista">
+            <div class="tipo__aporte">
+                <div class="monto">
+                    <span>De US$1 a US$10</span>
+                </div>
+                <div class="aporte__beneficio">
+                    <ul>
+                        <li>
+                            <p class="aporte__beneficio_p">Envío gratuito durante tres meses del <span class="color-1">boletín mensual</span> de las mejores investigaciones y aplicaciones ciudadanas de <a href="http://convoca.pe/" target="_blank"><b>Convoca</b></a></p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="tipo__aporte">
+                <div class="monto">
+                    <span>De US$11 a US$20</span>
+                </div>
+                <div class="aporte__beneficio">
+                    <ul>
+                        <li><p class="aporte__beneficio_p">Descarga gratuita de la nueva versión de los <span class="color-1">libros electrónicos</span> “Amazonía arrasada” y “Excesos sin castigo”.</p></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="tipo__aporte">
+                <div class="monto">
+                    <span> De US$21 a US$30</span>
+                </div>
+                <div class="aporte__beneficio">
+                    <ul>
+                        <li><p class="aporte__beneficio_p">Una <span class="color-1">beca</span> para los talleres de la Escuela <a href="http://convoca.pe/" target="_blank"><b>Convoca</b></a> de Investigación Periodística y de Datos (online y presencial)</p></li>
+                        <li><p class="aporte__beneficio_p">Envío mensual de <span class="color-1">boletín</span> <a href="http://convoca.pe/abcdatos" target="_blank"><b>#ABCDatos</b></a> que reúne las metodologías y aprendizajes de las investigaciones más destacadas en América Latina y el mundo.</p></li>
+                        <li><p class="aporte__beneficio_p"><span class="color-1">Descuento</span> en los libros publicados por <a href="http://convoca.pe/" target="_blank"><b>Convoca</b></a>.</p></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="tipo__aporte">
+                <div class="monto">
+                    <span>US$31  a  más</span>
+                </div>
+                <div class="aporte__beneficio">
+                    <ul>
+                        <li><p class="aporte__beneficio_p">Pertenecer al <span class="color-1">Consejo de Lectores*</span> de <a href="http://convoca.pe/" target="_blank"><b>Convoca</b></a></p></li>
+                        <li><p class="aporte__beneficio_p"><span class="color-1">Invitado especial</span> en conferencias, talleres y actividades que organice <a href="http://convoca.pe/" target="_blank"><b>Convoca</b></a></p></li>
+                        <li><p class="aporte__beneficio_p">Acceso a todos los beneficios anteriores.</p></li>
+                    </ul>
+
+                    <br>
+                    <p class="nota">*Quienes formen parte del Consejo de Lectores mantendrán comunicación directa con el equipo de <a href="http://convoca.pe/" target="_blank"><b>Convoca</b></a> y podrán sugerir temas de investigación.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="involucrarte">
+    <div class="ban">
+        <div class="container" style="position:relative;color:#fff;">
+            <h1>Cómo involucrarte</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/yukimori.jpg?itok=Q9YL_8yP" alt="Los Angeles">
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://convoca.pe/especiales/juegosdelpoder/img/PUERTA-ABIERTA-min.jpg" alt="Los Angeles">
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://www.convoca.pe/especiales/patrimonio-sa/img/img_congreso.jpg" alt="Los Angeles">
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://convoca.pe/especiales/crisis-presidencial/img/ppk_uno.jpg" alt="Los Angeles">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control back-none" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control back-none" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+<section id="agenda">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
+                <div  style="position:relative;color:#fff;">
+                    <h1 style="margin-top:0px;">Agenda</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/yukimori.jpg?itok=Q9YL_8yP" alt="Los Angeles">
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://convoca.pe/especiales/juegosdelpoder/img/PUERTA-ABIERTA-min.jpg" alt="Los Angeles">
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://www.convoca.pe/especiales/patrimonio-sa/img/img_congreso.jpg" alt="Los Angeles">
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://convoca.pe/especiales/crisis-presidencial/img/ppk_uno.jpg" alt="Los Angeles">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control back-none" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control back-none" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 </section>
 <footer class="container-fluid">
     <div class="row">
