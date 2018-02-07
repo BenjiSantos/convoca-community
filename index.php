@@ -59,7 +59,7 @@
                 <p style="color:#fff;">Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
                 de gran impacto para llegar a quienes nos gobiernan.</p>
                 <br>
-                <button class="btn btn-danger" style="padding:5px 30px;">Explorar</button>
+                <button class="btn btn-lg btn-danger" style="padding:5px 30px;">Explorar</button>
             </div>
             <div class="col-md-2">
 
@@ -70,7 +70,7 @@
 <section id="about" style="padding-bottom:30px;">
     <div class="ban ">
             <div class="container" style="position:relative;color:#fff;">
-              <h1>¿Quiénes somos?</h1>
+              <h1 class="martop-ban">¿Quiénes somos?</h1>
             </div>
     </div>
     <div class="container tex">
@@ -169,7 +169,7 @@
 <section id="aporte">
   <div class="ban">
           <div class="container" style="position:relative;color:#fff;">
-            <h1>HAZ TU APORTE</h1>
+            <h1 class="martop-ban">HAZ TU APORTE</h1>
           </div>
   </div>
 
@@ -423,7 +423,7 @@
 <section id="involucrarte">
     <div class="ban">
         <div class="container" style="position:relative;color:#fff;">
-            <h1>Cómo involucrarte</h1>
+            <h1 class="martop-ban">Cómo involucrarte</h1>
         </div>
     </div>
     <div class="container">

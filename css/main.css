@@ -101,7 +101,7 @@ footer {
 .ban{
   position: relative;
   background: url("../img/fotoconvoca-ban.jpg");
-  height: 100px;
+  height: 130px;
   padding-top: 10px;
 }
 .ban:before{
@@ -111,8 +111,8 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(to left,#002f4b , #c9302c 30%);
-	opacity: .8;
+	background: linear-gradient(to left,#002f4b , #AA3943 20%, #A60B12 90%);
+	opacity: .9;
 }
 
 .tex{
@@ -260,58 +260,12 @@ footer {
     max-width: 100%;
 }
 
-#owl-demo .item{
-    margin: 30px;
-}
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .trabajos {
     max-width: 100%;
 }
 
-.owl-carousel .owl-wrapper-outer {
-    max-width: 1200px !important;
-}
-
-.owl-prev, .owl-next {
-    background: transparent !important;
-    color: #fff !important;
-    font-size: 20px !important;
-    opacity: 1 !important;
-}
-
-.owl-prev span, .owl-next span {
-    color: #000;
-    font-size: 30px
-}
-
-.owl-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-left: -40px;
-    margin-right: -40px;
-    margin-top: -300px;
-    margin-bottom: 250px;
-}
-
-#owl-demo h2, p{
-    color: #000;
-}
-#owl-demo h2 {
-    font-family: Futura bold;
-    font-size: 18px;
-}
-#owl-demo p {
-    font-family: dinot;
-    font-size: 13px;
-}
-
-.owl-pagination {
-    display: none;
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
 }
 
 .titulo3 {
@@ -796,4 +750,12 @@ footer {
 }
 .pad-list {
     padding: 40px;
+}
+.martop-ban {
+    font-size: 45px;
+    margin-top: 30px;
+}
+.btn-danger {
+    background-color: #A60B12 !important;
+    border-color: #A60B12 !important;
 }
