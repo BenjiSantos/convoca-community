@@ -75,10 +75,10 @@ footer {
   font-size: 40px;
 }
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
-  right: 10%;
+  right: 25%;
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
-  left:10%;
+  left:25%;
 }
 .carousel-control .glyphicon-chevron-left{
   top:45%;
@@ -116,7 +116,7 @@ footer {
 }
 
 .tex{
-  color:#FF4000;
+  color:#A60B12;
   font-size: 14px;
   padding: 15px 0;
   width: 82%;
@@ -125,7 +125,7 @@ footer {
   width: 82%;
   position: relative;
   height: 2px;
-  background: linear-gradient(to left,#fff , #FF4000 60%);
+  background: linear-gradient(to left,#fff , #A60B12 60%);
 }
 .tex-mas{
   color:#000;
@@ -186,6 +186,13 @@ footer {
 .menu {
     display: flex;
     flex-direction: row;
+    border-left:2px solid #EEA031;
+}
+.menu a{
+  padding-left: 20px;
+}
+.menu a:hover{
+  text-decoration: none;
 }
 #ingles {
     font-weight: bold;
@@ -766,4 +773,34 @@ footer {
 .btn-danger {
     background-color: #A60B12 !important;
     border-color: #A60B12 !important;
+}
+
+.middle {
+	transition: .5s ease;
+    position: absolute;
+  	right: 0px;
+    left: 0px;
+    bottom: 0px;
+		background-color: rgba(0,0,0, .9);
+		z-index: 0;
+		opacity: 1;
+		border-radius: 4px;
+}
+.text{
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+  padding:5px;
+  padding-top: 0px;
+}
+.conte{
+  padding-right: 0px;
+  padding-left: 0px;
+  border-left: 10px solid #fff;
+  border-right: 5px solid #fff;
+}
+.logo-foot{
+  width: 70%;
+  display: inline-block;
+  height: auto;
 }

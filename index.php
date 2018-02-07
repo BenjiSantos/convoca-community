@@ -429,7 +429,7 @@
     </div>
     <div class="container" style="margin-top:20px;margin-bottom:40px;">
         <h4 style="color:#A60B12 !important;font-size:16px;margin:20px 65px;">Ser parte de ConBoca es sencillo, solo necesitas inscribirte  en una o varias de las actividades que se acomoden a tu deseo de contribuir. <br>Estas iniciativas seguirán creciendo según el aporte de todos para generar cambios en la comunidad</h4>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
 
@@ -483,11 +483,11 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control back-none" href="#myCarousel" data-slide="prev">
+            <a class="left carousel-control back-none" href="#mycarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control back-none" href="#myCarousel" data-slide="next">
+            <a class="right carousel-control back-none" href="#mycarousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -507,113 +507,139 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
+    <div class="container" style="margin-top:15px;margin-bottom:40px;">
+        <div id="myCarouse" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-
-                <div class="item active">
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/yukimori.jpg?itok=Q9YL_8yP" alt="Los Angeles">
+                <div class="item active" style="padding:0 30px;">
+                    <div class="col-md-3 item-carousel-convoca conte">
+                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/abridoranota.png?itok=BXGaX-VO" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                        </div>
                     </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
+                    <div class="col-md-3 item-carousel-convoca conte">
+                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/abridoranota.png?itok=BXGaX-VO" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                        </div>
                     </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
+                    <div class="col-md-3 item-carousel-convoca conte" >
+                        <img class="image" style="height:160px;" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/portadaescuela.jpg?itok=p-X_RNqP" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item-carousel-convoca conte" >
+                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/finalisimounete.jpg?itok=DhbB9Ykr" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="padding:0 30px;">
+                    <div class="col-md-3 item-carousel-convoca conte">
+                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/abridoranota.png?itok=BXGaX-VO" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item-carousel-convoca conte">
+                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/abridoranota.png?itok=BXGaX-VO" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item-carousel-convoca conte" >
+                        <img class="image" style="height:160px;" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/portadaescuela.jpg?itok=p-X_RNqP" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 item-carousel-convoca conte" >
+                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/finalisimounete.jpg?itok=DhbB9Ykr" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://convoca.pe/especiales/juegosdelpoder/img/PUERTA-ABIERTA-min.jpg" alt="Los Angeles">
-                    </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://www.convoca.pe/especiales/patrimonio-sa/img/img_congreso.jpg" alt="Los Angeles">
-                    </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://convoca.pe/especiales/crisis-presidencial/img/ppk_uno.jpg" alt="Los Angeles">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control back-none" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
+            <a class="left carousel-control" href="#myCarouse" data-slide="prev" style="width: 5% !important; padding-top:10%;">
+                <span class="glyphicon glyphicon-chevron-left" ></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control back-none" href="#myCarousel" data-slide="next">
+            <a class="right carousel-control" href="#myCarouse" data-slide="next" style="width: 5% !important; padding-top:10%;">
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
     </div>
 </section>
-<footer class="container-fluid">
+<footer class="container-fluid" style="padding-bottom:15px;">
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-3 col-xs-12" style="margin-top:20px;">
             <div class="row">
                 <div class="col-sm-12">
                     <p class="text-center">
-                        <br><br class="hidden-xs"><br class="hidden-xs">
                         <a href="http://convoca.pe/">
-                            <img src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/logo_convoca_color.png?v1" alt="" class="img-responsive">
+                            <img class="logo-foot"src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png" alt="" class="img-responsive">
                         </a>
                     </p>
 
                 </div>
             </div>
-            <p class="text-center hidden-xs hidden-sm publicado">
+            <p class="text-center hidden-xs hidden-sm publicado" style="padding-left:10px;">
                 Convoca © 2017 Todos los derechos reservados
             </p>
         </div>
-        <div class="col-md-5 publicado">
+        <div class="col-xs-12 col-sm-2 col-md-2" style="margin-top:20px;">
             <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 col-sm-12">
-                    <p>
-                        <br class="hidden-xs">
-                        <span>Responsable del proyecto: Milagros Salazar. <br>
-                  Reporteros: Óscar Libón<br>
-                  Gonzalo Torrico, Claudia Martorellet. <br>
-                  Miguel Gutiérrez, Aramís Castro. <br>
-                  Diseño, ilustraciones y vídeos: Orlando Tapia <br>
-                  Podcast: Karla Velezomoro, Sonia Tello, Michelle Mogollón y Walter Dávila. <br>
-                  Desarrollo web: Benji Santos.
-                </span>
-                        <br><br><br class="hidden-xs"><br class="hidden-xs">
-                        <span>
-                  Si tienes alguna denuncia o quieres contactarte<br> con nosotros búscanos en info@convoca.pe
-                </span>
-                        <br clear="visible-xs"><br clear="visible-xs">
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-5">
-            <div class="row">
-                <div class="col-xs-6 col-xs-offset-3 col-sm-12 col-sm-offset-0">
-                    <div class="row">
-                        <div class="col-sm-6">
                             <br class="hidden-xs">
                             <font color="red">
-                            </font><p class="menu"><font color="red">
+                            </font>
+                            <p class="menu">
+                            <font color="red">
                                     <a href="http://convoca.pe/investigaciones" target="_blank"><font color="#EEA031">Investigaciones</font></a><br>
                                     <a href="http://convoca.pe/agenda-propia" target="_blank"><font color="#EEA031">Agenda Propia</font></a><br>
                                     <a href="http://convoca.pe/mapea" target="_blank"><font color="#EEA031">Apps</font></a><br>
                                     <a href="http://convoca.pe/opiniones" target="_blank"><font color="#EEA031">Opinión</font></a><br>
                                     <a href="http://convoca.pe/convoca-radio" target="_blank"><font color="#EEA031">Convoca Radio</font></a></font>
                             </p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>
-                                <br class="hidden-xs">
-                                Convoca es miembro de:
-                                <img src="http://www.convoca.pe/sites/all/themes/theme930/images/GIJN_150x150.jpg" alt="" class="img-responsive">
-                            </p>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="col-md-5 publicado" style="margin-top:20px;">
+            <div class="row">
+                <div class="col-xs- col-sm-12">
+                    <p>
+                        <br class="hidden-xs">
+                        <span>Responsable del proyecto: Milagros Salazar. <br>
+                  Reporteros: Óscar Libón, Gonzalo Torrico, Claudia Martorellet, Miguel Gutiérrez, Aramís Castro. <br>
+                  Diseño, ilustraciones y vídeos: Orlando Tapia <br>
+                  Podcast: Karla Velezomoro, Sonia Tello, Michelle Mogollón y Walter Dávila. <br>
+                  Desarrollo web: Benji Santos, Anthony Atauqui.
+                </span>
+                        <br class="hidden-xs"><br class="hidden-xs">
+                        <span>
+                  Si tienes alguna denuncia o quieres contactarte con nosotros búscanos en <span style="color:#EEA031;">info@convoca.pe</span>
+                </span>
+                        <br clear="visible-xs"><br clear="visible-xs">
+                    </p>
                 </div>
             </div>
+        </div>
+        <div class="col-md-2 col-xs-12">
+            <p style="font-size:10px;">
+                <br class="hidden-xs">
+                Convoca es miembro de:
+                <img src="http://www.convoca.pe/sites/all/themes/theme930/images/GIJN_150x150.jpg" alt="" class="img-responsive" style="width:70%;">
+            </p>
         </div>
     </div>
 </footer>
