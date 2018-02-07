@@ -105,27 +105,51 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
 
-                <div class="item active">
-                    <div class="col-md-4 item-carousel-convoca conta">
+                <div class="item active" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/yukimori.jpg?itok=Q9YL_8yP" alt="Los Angeles">
+                        <div class="">
+                          <h3>Especiales</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
+                    <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
+                        <div class="">
+                          <h3>Especiales</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
+                    <div class="col-md-4 item-carousel-convoca">
                         <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
+                        <div class="">
+                          <h3>Especiales</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item" style="padding:0 50px;">
                     <div class="col-md-4 item-carousel-convoca conta">
                         <img class="image" src="http://convoca.pe/especiales/juegosdelpoder/img/PUERTA-ABIERTA-min.jpg" alt="Los Angeles">
+                        <div class="">
+                          <h3>Especiales</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca conta">
                         <img class="image" src="http://www.convoca.pe/especiales/patrimonio-sa/img/img_congreso.jpg" alt="Los Angeles">
+                        <div class="">
+                          <h3>Especiales</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca conta">
                         <img class="image" src="http://convoca.pe/especiales/crisis-presidencial/img/ppk_uno.jpg" alt="Los Angeles">
+                        <div class="">
+                          <h3>Especiales</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
                 </div>
             </div>
