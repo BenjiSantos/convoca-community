@@ -235,9 +235,9 @@
 
     <div id="apuesta"></div>
     <div class="bloque2">
-        <div class="bloque2_bloque">
-            <p><b>Con<span class="color-1">B</span>oca:El poder del llamado ciudadano</b> es la primera campaña de recolección de fondos de <b>Convoca</b>, que está enfocada en hacer crecer nuestra comunidad con el aporte de todos los ciudadanos a nivel global. Apostamos por el financiamiento colectivo para generar investigaciones con plena independencia y rigurosidad. Investigar el poder a fondo implica asumir altos riesgos y costos para cualquier grupo humano. En <b>Convoca</b> decidimos emprender ese camino porque creemos que si algún poder tiene el periodismo es cuando investiga, y este esfuerzo se potencia cuando se involucran los ciudadanos. </p>
-            <p> Creemos que necesitamos ser muchos para armar todas las piezas del rompecabezas de hechos ocultos que afectan nuestras vidas. A partir de hoy y durante 100 días puedes ser la voz de esta campaña para generar cambios con impacto global. Únete con el hashtag <b class="color-1">#ConBoca100mil</b> y conoce los beneficios de ser un embajador del periodismo independiente.</p>
+        <div class="bloque2_bloque" >
+            <p style="color:#A60B12 !important;"><b>Con<span class="color-1">B</span>oca:El poder del llamado ciudadano</b> es la primera campaña de recolección de fondos de <b>Convoca</b>, que está enfocada en hacer crecer nuestra comunidad con el aporte de todos los ciudadanos a nivel global. Apostamos por el financiamiento colectivo para generar investigaciones con plena independencia y rigurosidad. Investigar el poder a fondo implica asumir altos riesgos y costos para cualquier grupo humano. En <b>Convoca</b> decidimos emprender ese camino porque creemos que si algún poder tiene el periodismo es cuando investiga, y este esfuerzo se potencia cuando se involucran los ciudadanos. </p>
+            <p style="color:#A60B12 !important;"> Creemos que necesitamos ser muchos para armar todas las piezas del rompecabezas de hechos ocultos que afectan nuestras vidas. A partir de hoy y durante 100 días puedes ser la voz de esta campaña para generar cambios con impacto global. Únete con el hashtag <b class="color-1">#ConBoca100mil</b> y conoce los beneficios de ser un embajador del periodismo independiente.</p>
             <br><br>
             <div id="formulario">
 
