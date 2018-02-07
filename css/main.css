@@ -53,15 +53,36 @@ footer {
     height: 680px;
 }
 .item-carousel-convoca img{
-    height: 250px;
+    height: 200px;
+    width: 100%;
 }
-.conta:hover .image {
-    opacity: 0.3;
+.item-carousel-convoca > div p{
+  font-size: 12px;
 }
-
-.conta:hover .middle {
-    opacity: 1;
+.item-carousel-convoca > div h3{
+  margin-left: 5px;
+  margin-top: 5px;
 }
+.carousel-control.right{
+  background: transparent;
+}
+.carousel-control .glyphicon-chevron-right{
+  top:45%;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+  right: 10%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+  left:10%;
+}
+.carousel-control .glyphicon-chevron-left{
+  top:45%;
+}
+.carousel-control.left{
+  background: transparent;
+ }
+ .carousel-control{
+ }
 .btn-danger{
   border-radius: 10px;
 }
