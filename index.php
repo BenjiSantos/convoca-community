@@ -364,6 +364,7 @@
         </div>
     </div>
     <div class="container pad-list">
+        <h4 style="color:#A60B12 !important;">Todos los aportes son muy importantes y significativos para nosotros. Por eso hemos creado los siguientes beneficios.</h4>
         <div class="aportes__lista">
             <div class="tipo__aporte">
                 <div class="monto">
@@ -426,32 +427,57 @@
             <h1 class="martop-ban">Cómo involucrarte</h1>
         </div>
     </div>
-    <div class="container">
+    <div class="container" style="margin-top:20px;margin-bottom:40px;">
+        <h4 style="color:#A60B12 !important;font-size:16px;margin:20px 65px;">Ser parte de ConBoca es sencillo, solo necesitas inscribirte  en una o varias de las actividades que se acomoden a tu deseo de contribuir. <br>Estas iniciativas seguirán creciendo según el aporte de todos para generar cambios en la comunidad</h4>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
 
-                <div class="item active">
-                    <div class="col-md-4 item-carousel-convoca conta">
+                <div class="item active" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/yukimori.jpg?itok=Q9YL_8yP" alt="Los Angeles">
+                        <div class="">
+                          <a href="#"><h3>La Hora Convoca</h3></a>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
+                    <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="#"><h3>Aportexperto</h3></a>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
+                    <div class="col-md-4 item-carousel-convoca">
                         <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="#"><h3>Dupla Ciudadana</h3></a>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item" style="padding:0 50px;">
                     <div class="col-md-4 item-carousel-convoca conta">
                         <img class="image" src="http://convoca.pe/especiales/juegosdelpoder/img/PUERTA-ABIERTA-min.jpg" alt="Los Angeles">
+                        <div class="">
+                          <h3>Especiales</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca conta">
                         <img class="image" src="http://www.convoca.pe/especiales/patrimonio-sa/img/img_congreso.jpg" alt="Los Angeles">
+                        <div class="">
+                          <h3>Nuevas Narrativas</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca conta">
                         <img class="image" src="http://convoca.pe/especiales/crisis-presidencial/img/ppk_uno.jpg" alt="Los Angeles">
+                        <div class="">
+                          <h3>Escuela</h3>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
                     </div>
                 </div>
             </div>

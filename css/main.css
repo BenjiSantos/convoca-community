@@ -756,6 +756,8 @@ footer {
 }
 .pad-list {
     padding: 40px;
+    padding-top: 0px;
+    text-align: center;
 }
 .martop-ban {
     font-size: 45px;
