@@ -56,7 +56,7 @@
             </div>
             <div class="col-md-8 pad-banner">
                 <h1 style="font-size: 60px;">Comunidad ConBoca</h1>
-                <p>Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
+                <p style="color:#fff;">Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
                 de gran impacto para llegar a quienes nos gobiernan.</p>
                 <br>
                 <button class="btn btn-danger" style="padding:5px 30px;">Explorar</button>
@@ -109,21 +109,21 @@
                     <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/yukimori.jpg?itok=Q9YL_8yP" alt="Los Angeles">
                         <div class="">
-                          <h3>Especiales</h3>
+                          <a href="#"><h3>Especiales</h3></a>
                           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
                         <div class="">
-                          <h3>Especiales</h3>
+                          <a href="#"><h3>Nuevas Narrativas</h3></a>
                           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca">
                         <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
                         <div class="">
-                          <h3>Especiales</h3>
+                          <a href="#"><h3>Escuela</h3></a>
                           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                         </div>
                     </div>
@@ -140,14 +140,14 @@
                     <div class="col-md-4 item-carousel-convoca conta">
                         <img class="image" src="http://www.convoca.pe/especiales/patrimonio-sa/img/img_congreso.jpg" alt="Los Angeles">
                         <div class="">
-                          <h3>Especiales</h3>
+                          <h3>Nuevas Narrativas</h3>
                           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca conta">
                         <img class="image" src="http://convoca.pe/especiales/crisis-presidencial/img/ppk_uno.jpg" alt="Los Angeles">
                         <div class="">
-                          <h3>Especiales</h3>
+                          <h3>Escuela</h3>
                           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                         </div>
                     </div>

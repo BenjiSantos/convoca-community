@@ -63,11 +63,16 @@ footer {
   margin-left: 5px;
   margin-top: 5px;
 }
+.item-carousel-convoca > div a{
+  color: #000;
+  text-decoration: none !important;
+}
 .carousel-control.right{
   background: transparent;
 }
 .carousel-control .glyphicon-chevron-right{
   top:45%;
+  font-size: 40px;
 }
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
   right: 10%;
@@ -77,11 +82,18 @@ footer {
 }
 .carousel-control .glyphicon-chevron-left{
   top:45%;
+  font-size: 40px;
 }
 .carousel-control.left{
   background: transparent;
  }
  .carousel-control{
+   color:#c9302c;
+   transition: all .5s ease;
+   width: 5%;
+ }
+ .carousel-control:hover{
+   color: #c9302c;
  }
 .btn-danger{
   border-radius: 10px;
@@ -99,7 +111,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(to left,#002f4b , #FF4000 30%);
+	background: linear-gradient(to left,#002f4b , #c9302c 30%);
 	opacity: .8;
 }
 
