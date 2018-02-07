@@ -35,8 +35,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="/">Quiénes somos</a></li>
-                <li><button class="btn btn-danger">Haz tu aporte</button></li>
+                <li><a href="#about">Quiénes somos</a></li>
+                <li><button class="btn btn-danger" onclick="#ou">Haz tu aporte</button></li>
                 <li class=""><a href="/mapa">Cómo involucrarte</a></li>
                 <li class=""><a href="/#">Agenda</a></li>
               </ul>
@@ -87,14 +87,16 @@
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
     </div>
 </section>
-<section id="our-work">
+<section id="our-work" style="margin-bottom:30px;">
     <div class="container-fluid">
         <div class="row">
           <div class="col-md-1">
 
           </div>
-            <div class="col-md-11 background-img">
-                <h1>Nuestro trabajo</h1>
+            <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
+              <div  style="position:relative;color:#fff;">
+                <h1 style="margin-top:0px;">Nuestro trabajo</h1>
+              </div>
             </div>
         </div>
     </div>
@@ -141,11 +143,11 @@
     </div>
 </section>
 <section id="aporte">
-    <div class="container-fluid background-img">
-        <div class="container">
-            <h1></h1>
-        </div>
-    </div>
+  <div class="ban ">
+          <div class="container" style="position:relative;color:#fff;">
+            <h1>HAZ TU APORTE</h1>
+          </div>
+  </div>
 
     <div class="modal fade" id="donar-paypal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-mensaje" role="document">
