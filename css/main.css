@@ -37,6 +37,9 @@ body{
 #men-ti{
   font-size: 12px;
   font-weight: bold;
+  padding-top: 10px;
+  margin-top:5px;
+  padding-bottom: 10px;
   transition: all .6s ease;
 }
 #men-t:hover{
@@ -67,7 +70,6 @@ body{
 .pad-banner {
   text-align: center;
     padding-top: 200px;
-    padding-bottom: 200px;
     color: #fff;
     font-size: 16px;
 
@@ -796,6 +798,7 @@ footer {
 .pad-list {
     padding: 40px;
     padding-top: 0px;
+    padding-bottom: 0px;
     text-align: center;
 }
 .martop-ban {
@@ -822,7 +825,7 @@ footer {
 .text{
 	color: white;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 12px;
   padding:5px;
   padding-top: 0px;
 }

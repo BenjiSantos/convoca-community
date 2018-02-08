@@ -15,6 +15,16 @@
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         </head>
     <link type="text/javascript" href="js/code.js">
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54366281-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 
 </head>
 <body>
@@ -28,7 +38,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="" href="http://convoca.pe/">
+            <a class="" href="/">
                 <img class="logo1"src="img/confe.png">
                 <img class="logo2"src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png">
             </a>
@@ -37,8 +47,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="#about" id="men-t">QUIÉNES SOMOS</a></li>
-                <li><button class="btn btn-danger" onclick="#ou"  id="men-ti">HAZ TU APORTE</button></li>
+                <li><a href="#men-btn" id="men-t">QUIÉNES SOMOS</a></li>
+                <li><a class="btn btn-danger" href="#aporte"  id="men-ti" >HAZ TU APORTE</a></li>
                 <li class=""><a href="#involucrarte"  id="men-t">CÓMO INVOLUCRARTE</a></li>
                 <li class=""><a href="#agenda"  id="men-t">AGENDA</a></li>
               </ul>
@@ -61,7 +71,7 @@
                 <p style="color:#fff;font-size:18px;">Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
                 de gran impacto para llegar a quienes nos gobiernan.</p>
                 <br>
-                <button class="btn btn-lg btn-danger" id="men-btn">Explorar</button>
+                <a class="btn btn-lg btn-danger" id="men-btn" href="#men-btn">Explorar</a>
             </div>
             <div class="col-md-2">
 
@@ -69,29 +79,24 @@
         </div>
     </div>
 </section>
-<section id="about" style="padding-bottom:30px;">
+<section id="about">
     <div class="ban ">
             <div class="container" style="position:relative;color:#fff;">
               <h1 class="martop-ban">¿QUIÉNES SOMOS?</h1>
             </div>
     </div>
     <div class="container tex">
-      <p>Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú.
-Une lo mejor de la tradición del oficio, el reporteo permanente, y la tecnología para investigar
-de manera sistemática las redes del poder y de la corrupción que afecta la vida de los
-ciudadanos.<br><br>
-Ganador de los Data Journalism Awards 2016, finalista del Premio Iberoamericano Gabriel
-García Márquez y miembro del equipo ganador del Premio Excelencia Periodística de la
-Sociedad Interamericana de Prensa 2016 en la categoría “Relaciones Interamericanas”;
-Convoca busca un modelo periodístico de investigación que sea sostenible e independiente en
-la generación de sus recursos.</p>
+      <p>Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, que trabaja en alianza con periodistas de América Latina y a escala global. Une lo mejor de la tradición del oficio, el reporteo permanente, y la tecnología para investigar de manera sistemática las redes del poder y de la corrupción que afecta la vida de los ciudadanos, explora diversos formatos innovadores para llegar a una audiencia cada vez mayor y ha creado una escuela de investigación periodística para contribuir a potenciar el trabajo de los reporteros.<br><br>
+        Ganador de los Data Journalism Awards 2016 en la categoría Newsapp (small newsroom), finalista del Premio Iberoamericano Gabriel García Márquez en las categorías Innovación (2016) y Mejor Cobertura Periodística (2017), ganador del Gran Premio Nacional de Periodismo 2017 en Perú y del Premio Nacional de Derechos Humanos y Periodismo 2017. Los periodistas de Convoca integraron el equipo ganador del Premio Excelencia Periodística de la Sociedad Interamericana de Prensa 2016 en la categoría “Relaciones Interamericanas” por una serie de reportajes sobre las inversiones de las empresas brasileñas en América Latina coordinado por la plataforma BRÍO y también formaron parte de la investigación global Panama Papers, ganadora del Premio Pulitzer 2017, que fue liderada por el Consorcio Internacional de Periodistas de Investigación (ICIJ, por sus siglas en inglés).
+        Convoca empezó a publicar sus primeras investigaciones el 8 de febrero de 2015. Desde entonces trabaja de manera permanente en un modelo que permita hacer sostenible e independiente el trabajo periodístico con el apoyo de sus lectores.
+</p>
     </div>
     <div class="container bord" >
 
     </div>
     <div class="container tex-mas">
       <h3>Nuestra apuesta / Periodismo es servicio público</h3>
-      <span class="more">El esfuerzo colaborativo es la esencia de Convoca. Somos un equipo de periodistas y programadores que trabajamos con profesionales de diversas disciplinas y generaciones para sacar a la luz aquellos hechos que ocultan las redes del poder y que afectan la vida de los ciudadanos. Apostamos por el trabajo en alianza para publicar investigaciones de alto impacto desde el Perú, donde la Amazonía sobrevive en casi el 60% del territorio del país en medio de la explotación de petróleo, los minerales y actividades como la tala, la minería ilegal y la trata de personas. El 50% de los conflictos sociales tiene como epicentro las zonas de extracción de los recursos naturales donde viven comunidades y poblaciones con los más altos índices de pobreza del país.</span>
+      <span class="more">El esfuerzo colaborativo y multidisciplinario es la esencia de Convoca. Somos un equipo de periodistas y programadores que trabajamos con profesionales de diversas disciplinas y generaciones para sacar a la luz aquellos hechos que ocultan las redes del poder y que afectan la vida de los ciudadanos. Apostamos por el trabajo en alianza para publicar investigaciones de alto impacto desde el Perú, donde la Amazonía sobrevive en casi el 60% del territorio del país en medio de la explotación de petróleo, los minerales y actividades como la tala, la minería ilegal y la trata de personas. El 50% de los conflictos sociales tiene como epicentro las zonas de extracción de los recursos naturales donde viven comunidades y poblaciones con los más altos índices de pobreza del país.</span>
     </div>
 </section>
 <section id="our-work" style="margin-bottom:30px;">
@@ -192,7 +197,7 @@ la generación de sus recursos.</p>
             </div>
             <div class="col-sm-6 col-xs-12">
               <p style="color:#000 !important;margin-top:30px;">“ConBoca: El poder del llamado ciudadano” fue la primera campaña de recolección de fondos de Convoca, que estaba enfocada en hacer crecer nuestra comunidad con el aporta de todos los ciudadanos a nivel global. Apostamos por el financiamiento colectivo para generar investigaciones con plena independencia y rigurosidad. <br><br>
-        Investigar el poder a fondo implica asumir altos riesgos y costos para cualquier grupo humano. En Convoca decidimos emprender ese camino porque creemos que si algún poder tiene el periodismo es cuando investiga, y este esfuerzo se potencia cuando se involucran los ciudadanos.</p>
+    Investigar el poder a fondo implica asumir altos riesgos y costos para cualquier grupo humano. En Convoca decidimos emprender ese camino porque creemos que si algún poder tiene el periodismo es cuando investiga, y este esfuerzo se potencia cuando se involucran los ciudadanos.</p>
             </div>
           </div>
         </div>
@@ -200,6 +205,9 @@ la generación de sus recursos.</p>
     </div>
 </section>
 <section id="aporte">
+  <div class="contiene" style="height:50px;width:100%;">
+
+  </div>
   <div class="ban">
           <div class="container" style="position:relative;color:#fff;">
             <h1 class="martop-ban">HAZ TU APORTE</h1>
@@ -267,6 +275,7 @@ la generación de sus recursos.</p>
     </div><!-- /.modal -->
 
     <div id="apuesta"></div>
+
     <div class="bloque2">
         <div class="bloque2_bloque" >
             <p style="color:#A60B12 !important;font-size:16px;">Necesitamos ser muchos para armar todas las piezas del rompecabezas de hechos ocultos que afectan nuestras vidas. Es por ello que necesitamos de tu ayuda para para generar cambios con impacto global...  ¡Sé un embajador del periodismo independiente! </p>
@@ -454,13 +463,17 @@ la generación de sus recursos.</p>
     </div>
 </section>
 <section id="involucrarte">
+  <div class="contiene" style="height:60px;width:100%;">
+
+  </div>
     <div class="ban">
         <div class="container" style="position:relative;color:#fff;">
             <h1 class="martop-ban">CÓMO INVOLUCRARTE</h1>
         </div>
     </div>
     <div class="container" style="margin-top:20px;margin-bottom:40px;">
-        <h4 style="color:#A60B12 !important;font-size:16px;margin:20px 65px;">Ser parte de ConBoca es sencillo, solo necesitas inscribirte  en una o varias de las actividades que se acomoden a tu deseo de contribuir. <br>Estas iniciativas seguirán creciendo según el aporte de todos para generar cambios en la comunidad</h4>
+        <h4 style="color:#A60B12 !important;font-size:16px;margin:20px 65px;">Ser parte de la Comunidad Convoca es sencillo, revisa aquí cómo puedes participar. Estas iniciativas seguirán creciendo con el aporte de todos.
+</h4>
         <div id="mycarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -469,21 +482,21 @@ la generación de sus recursos.</p>
                     <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="img/horaconvoca.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#" target="_blank"><h3>La Hora Convoca</h3></a>
+                          <a  target="_blank"><h3>La Hora Convoca</h3></a>
                           <p>Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="img/aportexperto.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#" target="_blank"><h3>Aportexperto</h3></a>
+                          <a  target="_blank"><h3>Aportexperto</h3></a>
                           <p>Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca">
                         <img class="image" src="img/dupla.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#" target="_blank"><h3>Dupla Ciudadana</h3></a>
+                          <a  target="_blank"><h3>Dupla Ciudadana</h3></a>
                           <p>Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En esta sección, uniremos a un ciudadano y a un periodista para que trabajen juntos en un proyecto. </p>
                         </div>
                     </div>
@@ -492,21 +505,21 @@ la generación de sus recursos.</p>
                     <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="img/horaconvoca.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#" target="_blank"><h3>La Hora Convoca</h3></a>
+                          <a  target="_blank"><h3>La Hora Convoca</h3></a>
                           <p>Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca ">
                         <img class="image" src="img/aportexperto.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#" target="_blank"><h3>Aportexperto</h3></a>
+                          <a  target="_blank"><h3>Aportexperto</h3></a>
                           <p>Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca">
                         <img class="image" src="img/dupla.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#" target="_blank"><h3>Dupla Ciudadana</h3></a>
+                          <a  target="_blank"><h3>Dupla Ciudadana</h3></a>
                           <p>Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En esta sección, uniremos a un ciudadano y a un periodista para que trabajen juntos en un proyecto. </p>
                         </div>
                     </div>
@@ -543,61 +556,61 @@ la generación de sus recursos.</p>
             <div class="carousel-inner">
                 <div class="item active" style="padding:0 30px;">
                     <div class="col-md-3 item-carousel-convoca conte">
-                        <img class="image" style="height:160px;" src="img/8feb.jpg" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/8feb.png" alt="Los Angeles">
                         <div class="middle">
                           <h4 style="color:#A60B12 !important;margin:5px;">8 de febrero :</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">3er Aniversario de Convoca</a></div>
+                          <div class="text"><a style="text-decoration:none !important;color:#fff;" target="_blank">3er Aniversario de Convoca</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte">
                         <img class="image" style="height:160px;" src="img/13feb.jpg" alt="Los Angeles">
                         <div class="middle">
                           <h4 style="color:#A60B12 !important;margin:5px;">13 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Día Mundial de la Radio</a></div>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank"> Programa radial especial con la Asociación Nacional de Periodistas por el día mundial de la radio</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte" >
                         <img class="image" style="height:160px;" src="img/22feb.jpg" alt="Los Angeles">
                         <div class="middle">
                           <h4 style="color:#A60B12 !important;margin:5px;">22 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Aniversario Radio Convoca</a></div>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank">Primer aniversario de Convoca Radio en el auditorio de la Asociación Nacional de Periodistas.</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte" >
                         <img class="image" style="height:160px;" src="img/prox.jpg" alt="Los Angeles">
                         <div class="middle">
                           <h4 style="color:#A60B12 !important;margin:5px;">Proximamente :</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Curso online ¿Cómo producir podcast?</a></div>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank">Curso Online: ¿Cómo producir un podcast? Con Karla Velezmoro</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="item " style="padding:0 30px;">
                     <div class="col-md-3 item-carousel-convoca conte">
-                        <img class="image" style="height:160px;" src="img/8feb.jpg" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/8feb.png" alt="Los Angeles">
                         <div class="middle">
                           <h4 style="color:#A60B12 !important;margin:5px;">8 de febrero :</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">3er Aniversario de Convoca</a></div>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank">3er Aniversario de Convoca</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte">
                         <img class="image" style="height:160px;" src="img/13feb.jpg" alt="Los Angeles">
                         <div class="middle">
                           <h4 style="color:#A60B12 !important;margin:5px;">13 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Día Mundial de la Radio</a></div>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank"> Programa radial especial con la Asociación Nacional de Periodistas por el día mundial de la radio</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte" >
                         <img class="image" style="height:160px;" src="img/22feb.jpg" alt="Los Angeles">
                         <div class="middle">
                           <h4 style="color:#A60B12 !important;margin:5px;">22 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Aniversario Radio Convoca</a></div>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank">Primer aniversario de Convoca Radio en el auditorio de la Asociación Nacional de Periodistas.</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte" >
                         <img class="image" style="height:160px;" src="img/prox.jpg" alt="Los Angeles">
                         <div class="middle">
                           <h4 style="color:#A60B12 !important;margin:5px;">Proximamente :</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Curso online ¿Cómo producir podcast?</a></div>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank">Curso Online: ¿Cómo producir un podcast? Con Karla Velezmoro</a></div>
                         </div>
                     </div>
                 </div>
@@ -615,7 +628,7 @@ la generación de sus recursos.</p>
 </section>
 <footer class="container-fluid" style="padding-bottom:5px;">
     <div class="row">
-        <div class="col-md-3 col-xs-12" style="margin-top:40px;">
+        <div class="col-md-3 col-xs-12" style="margin-top:70px;">
             <div class="row">
                 <div class="col-sm-12">
                     <p class="text-center">
@@ -630,7 +643,7 @@ la generación de sus recursos.</p>
                 Convoca © 2017 Todos los derechos reservados
             </p>
         </div>
-        <div class="col-xs-12 col-sm-1 col-md-1" style="margin-top:40px;">
+        <div class="col-xs-12 col-sm-1 col-md-1" style="margin-top:70px;">
             <div class="row">
                             <br class="hidden-xs">
                             <font color="red">
@@ -650,17 +663,21 @@ la generación de sus recursos.</p>
                 <div class="col-xs- col-sm-12">
                     <p>
                         <br class="hidden-xs">
-                        <span> Rosa Milagros Salazar Herrera - Directora Convoca<br>
-                  Aramis Castro Ramos – Periodista <br>
-                  Óscar Rudy Libón Basurto - Investigador periodista <br>
-                  Maria Allasi Herrera- Administración y coordinadora de la Escuela Convoca<br>
-                  Benji Santos Quispe - Desarrollador<br>
-                  José Anthony Atauqui Tito - Asistente Desarrollador<br>
-                  Karla Paola Velezmoro Contreras - Directora de Convoca Radio<br>
+                        <span>Milagros Salazar Herrera - Directora ejecutiva y periodística<br>
+                  Óscar Rudy Libón Basurto - Editor e investigador principal <br>
+                  Karla Paola Velezmoro Contreras - Directora de Convoca Radio y coordinadora de proyectos<br>
+                  Miguel Guitérrez - Investigador<br>
+                  Melanie Betetta  - Reportera y coordinadora de temas de transparencia <br>
                   Raquel Virginia Tineo Ramos - Reportera y editora de audiencias<br>
-                  Cosseth Melanie Betetta Cabrera - Reportera y coordinadora de temas de transparencia , analisis de base de datos<br>
-                  Camila Araceli Alomia Zamudio - Asistente de redes sociales<br>
-                  Rosa Alejandra Lopez Valencia - Coordinadora de redes sociales<br>
+                  Rosa Alejandra Lopez Valencia - Reportera y redes sociales de la Escuela Convoca<br>
+                  Camila Araceli Alomia Zamudio - Reportera y producción multimedia<br>
+                  Sonia Tello - Reporteros de Convoca Radio<br>
+                  Walter Dávila - Reporteros de Convoca Radio<br>
+                  Benji Santos Quispe - Desarrollador y responsable del área de tecnología<br>
+                  José Anthony Atauqui Tito - Desarrollador<br>
+                  Elvis Rivera - Responsable del laboratorio de innovación<br>
+                  Maria Allasi Herrera- Administración y coordinadora de la Escuela Convoca<br>
+
                 </span>
                         <br class="hidden-xs">
                         <span>
@@ -670,7 +687,7 @@ la generación de sus recursos.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-2 col-xs-12" style="margin-top:20px;">
+        <div class="col-md-2 col-xs-12" style="margin-top:40px;">
             <p style="font-size:10px;">
                 <br class="hidden-xs">
                 Convoca es miembro de:
