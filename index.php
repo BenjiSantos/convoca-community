@@ -27,23 +27,23 @@
             <span class="icon-bar"></span>
           </button>
             <a class="" href="http://convoca.pe/">
-                <img class="logo1"src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png">
-                <img class="logo2"src="http://conboca.pe/img/logo-conboca.png">
+                <img class="logo1"src="img/confe.png">
+                <img class="logo2"src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png">
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="#about">Quiénes somos</a></li>
-                <li><button class="btn btn-danger" onclick="#ou">Haz tu aporte</button></li>
-                <li class=""><a href="/mapa">Cómo involucrarte</a></li>
-                <li class=""><a href="/#">Agenda</a></li>
+                <li><a href="#about" id="men-t">QUIÉNES SOMOS</a></li>
+                <li><button class="btn btn-danger" onclick="#ou"  id="men-ti">HAZ TU APORTE</button></li>
+                <li class=""><a href="#involucrarte"  id="men-t">CÓMO INVOLUCRARTE</a></li>
+                <li class=""><a href="#agenda"  id="men-t">AGENDA</a></li>
               </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#inicio"><span class="icon-home"></span></a></li>
-              <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open('http://www.facebook.com/share.php?u='+dir2+'&amp;t='+tit2+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0"><span class="icon-facebook"></span></a></li>
-              <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open('http://twitter.com/?status='+tit2+'%20'+dir+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0"><span class="icon-twitter"></span></a></li>
+              <li><a href="#inicio" id="men-t"><span class="icon-home"></span></a></li>
+              <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open('http://www.facebook.com/share.php?u='+dir2+'&amp;t='+tit2+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0" id="men-t"><span class="icon-facebook"></span></a></li>
+              <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open('http://twitter.com/?status='+tit2+'%20'+dir+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0" id="men-t"><span class="icon-twitter"></span></a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -55,11 +55,11 @@
 
             </div>
             <div class="col-md-8 pad-banner">
-                <h1 style="font-size: 60px;">Comunidad ConBoca</h1>
+                <h1 style="font-size: 65px;font-weight:700;">COMUNIDAD CONVOCA</h1>
                 <p style="color:#fff;">Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
                 de gran impacto para llegar a quienes nos gobiernan.</p>
                 <br>
-                <button class="btn btn-lg btn-danger" style="padding:5px 30px;">Explorar</button>
+                <button class="btn btn-lg btn-danger" id="men-btn">Explorar</button>
             </div>
             <div class="col-md-2">
 
@@ -70,7 +70,7 @@
 <section id="about" style="padding-bottom:30px;">
     <div class="ban ">
             <div class="container" style="position:relative;color:#fff;">
-              <h1 class="martop-ban">¿Quiénes somos?</h1>
+              <h1 class="martop-ban">¿QUIÉNES SOMOS?</h1>
             </div>
     </div>
     <div class="container tex">
@@ -107,48 +107,48 @@
 
                 <div class="item active" style="padding:0 50px;">
                     <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/yukimori.jpg?itok=Q9YL_8yP" alt="Los Angeles">
+                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/interactivo/nota1/casos_emblematicos.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#"><h3>Especiales</h3></a>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <a href="http://memoriasdelacorrupcion.convoca.pe/" target="_blank"><h3>Memorias de la Corrupción</h3></a>
+                          <p><strong>‘Memorias de la corrupción’</strong> es un proyecto periodístico que reúne en una plataforma interactiva información de interés público sobre los principales casos de corrupción ocurridos en Perú en los últimos 40 años.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
+                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/sombras-del-indulto/imagen/yukimori.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#"><h3>Nuevas Narrativas</h3></a>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        </div>
+                          <a href="http://memoriasdelacorrupcion.convoca.pe/sombras-del-indulto/" target="_blank"><h3>Sombras del Indulto</h3></a>
+                          <p>El indulto al exgobernante Alberto Fujimori, condenado a 25 años de prisión por crímenes contra los derechos humanos y corrupción, ha sido un tema que ha dividido a la opinión pública peruana en los últimos años. </p>
+                          </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca">
-                        <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
+                        <img class="image" src="http://convoca.pe/especiales/lava-jato-y-castillo-de-arena/img/andina.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#"><h3>Escuela</h3></a>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <a href="http://convoca.pe/especiales/lava-jato-y-castillo-de-arena/" target="_blank"><h3>Expediente Lavajato</h3></a>
+                          <p>Explora un centenar de publicaciones sobre pagos de sobornos y financiamiento de campaña de las constructoras brasileñas y sus socias peruanas a altos funcionarios, políticos y empresarios peruanos</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="item" style="padding:0 50px;">
                     <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://convoca.pe/especiales/juegosdelpoder/img/PUERTA-ABIERTA-min.jpg" alt="Los Angeles">
+                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
                         <div class="">
-                          <h3>Especiales</h3>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <a href="https://investigalavajato.convoca.pe/" target="_blank"><h3>Investiga Lavajato</h3></a>
+                          <p>"Investiga Lava Jato" es un proyecto colaborativo de veinte periodistas de América Latina y África para investigar el caso de corrupción más importante en los últimos tiempos.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://www.convoca.pe/especiales/patrimonio-sa/img/img_congreso.jpg" alt="Los Angeles">
+                        <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
                         <div class="">
-                          <h3>Nuevas Narrativas</h3>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <a href="http://ilusionfiscal.convoca.pe/" target="_blank"><h3>Ilusion Fiscal</h3></a>
+                          <p>Empresas offshore, paraísos fiscales y personajes que desarman el esquema tributario en Perú</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://convoca.pe/especiales/crisis-presidencial/img/ppk_uno.jpg" alt="Los Angeles">
+                        <img class="image" src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/portada.jpg?v=1.2" alt="Los Angeles">
                         <div class="">
-                          <h3>Escuela</h3>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <a href="https://investigalavajato.convoca.pe/viasobrecosto" target="_blank"><h3>Vías sobre Costo</h3></a>
+                          <p>En esta primera etapa de la aplicación periodística #VíaSobrecosto, sigue la ruta de las obras de Odebrecht, conoce los incrementos de presupuesto.</p>
                         </div>
                     </div>
                 </div>
@@ -424,7 +424,7 @@
 <section id="involucrarte">
     <div class="ban">
         <div class="container" style="position:relative;color:#fff;">
-            <h1 class="martop-ban">Cómo involucrarte</h1>
+            <h1 class="martop-ban">CÓMO INVOLUCRARTE</h1>
         </div>
     </div>
     <div class="container" style="margin-top:20px;margin-bottom:40px;">
@@ -435,48 +435,24 @@
 
                 <div class="item active" style="padding:0 50px;">
                     <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/yukimori.jpg?itok=Q9YL_8yP" alt="Los Angeles">
+                        <img class="image" src="http://conboca.convoca.pe/images/body/hora_conboca.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#"><h3>La Hora Convoca</h3></a>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <a href="#" target="_blank"><h3>La Hora Convoca</h3></a>
+                          <p>Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
+                        <img class="image" src="http://conboca.convoca.pe/images/body/aporteexperto.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#"><h3>Aportexperto</h3></a>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <a href="#" target="_blank"><h3>Aportexperto</h3></a>
+                          <p>Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca">
-                        <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
+                        <img class="image" src="http://conboca.convoca.pe/images/body/duplaciudadana.jpg" alt="Los Angeles">
                         <div class="">
-                          <a href="#"><h3>Dupla Ciudadana</h3></a>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item" style="padding:0 50px;">
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://convoca.pe/especiales/juegosdelpoder/img/PUERTA-ABIERTA-min.jpg" alt="Los Angeles">
-                        <div class="">
-                          <h3>Especiales</h3>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://www.convoca.pe/especiales/patrimonio-sa/img/img_congreso.jpg" alt="Los Angeles">
-                        <div class="">
-                          <h3>Nuevas Narrativas</h3>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 item-carousel-convoca conta">
-                        <img class="image" src="http://convoca.pe/especiales/crisis-presidencial/img/ppk_uno.jpg" alt="Los Angeles">
-                        <div class="">
-                          <h3>Escuela</h3>
-                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <a href="#" target="_blank"><h3>Dupla Ciudadana</h3></a>
+                          <p>Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En esta sección, uniremos a un ciudadano y a un periodista para que trabajen juntos en un proyecto. </p>
                         </div>
                     </div>
                 </div>
