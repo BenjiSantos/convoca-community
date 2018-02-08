@@ -217,9 +217,11 @@ footer {
     display: flex;
     flex-direction: row;
     border-left:2px solid #EEA031;
+
 }
 .menu a{
   padding-left: 20px;
+  text-decoration: none !important;
 }
 .menu a:hover{
   text-decoration: none;

@@ -74,17 +74,22 @@
             </div>
     </div>
     <div class="container tex">
-        <p>Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, ganador de los Data Journalism Awards 2016,finalista del Premio Iberoamericano Gabriel García Márquez y miembro del equipo ganador del Premio Excelencia Periodística de la Sociedad Interamericana de Prensa 2016 en la categoría "Relaciones Interamericanas".</p>
+      <p>Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú.
+Une lo mejor de la tradición del oficio, el reporteo permanente, y la tecnología para investigar
+de manera sistemática las redes del poder y de la corrupción que afecta la vida de los
+ciudadanos.<br><br>
+Ganador de los Data Journalism Awards 2016, finalista del Premio Iberoamericano Gabriel
+García Márquez y miembro del equipo ganador del Premio Excelencia Periodística de la
+Sociedad Interamericana de Prensa 2016 en la categoría “Relaciones Interamericanas”;
+Convoca busca un modelo periodístico de investigación que sea sostenible e independiente en
+la generación de sus recursos.</p>
     </div>
     <div class="container bord" >
 
     </div>
     <div class="container tex-mas">
       <h3>Nuestra apuesta / Periodismo es servicio público</h3>
-      <span class="more">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+      <span class="more">El esfuerzo colaborativo es la esencia de Convoca. Somos un equipo de periodistas y programadores que trabajamos con profesionales de diversas disciplinas y generaciones para sacar a la luz aquellos hechos que ocultan las redes del poder y que afectan la vida de los ciudadanos. Apostamos por el trabajo en alianza para publicar investigaciones de alto impacto desde el Perú, donde la Amazonía sobrevive en casi el 60% del territorio del país en medio de la explotación de petróleo, los minerales y actividades como la tala, la minería ilegal y la trata de personas. El 50% de los conflictos sociales tiene como epicentro las zonas de extracción de los recursos naturales donde viven comunidades y poblaciones con los más altos índices de pobreza del país.</span>
     </div>
 </section>
 <section id="our-work" style="margin-bottom:30px;">
@@ -165,6 +170,32 @@
             </a>
         </div>
     </div>
+    <div class="container-fluid" style="margin-top:40px;">
+        <div class="row">
+          <div class="col-md-1">
+
+          </div>
+            <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
+              <div  style="position:relative;color:#fff;">
+                <h1 style="margin-top:0px;">Lo que hemos logrado con tu aporte</h1>
+              </div>
+            </div>
+        </div>
+        <div class="container tex">
+          <div class="row">
+<div class="col-sm-6 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AZwF0f3h46s?rel=0&amp;controls=0&amp;showinfo=0"></iframe>
+	</div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <p style="color:#000 !important;margin-top:30px;">“ConBoca: El poder del llamado ciudadano” fue la primera campaña de recolección de fondos de Convoca, que estaba enfocada en hacer crecer nuestra comunidad con el aporta de todos los ciudadanos a nivel global. Apostamos por el financiamiento colectivo para generar investigaciones con plena independencia y rigurosidad. <br><br>
+        Investigar el poder a fondo implica asumir altos riesgos y costos para cualquier grupo humano. En Convoca decidimos emprender ese camino porque creemos que si algún poder tiene el periodismo es cuando investiga, y este esfuerzo se potencia cuando se involucran los ciudadanos.</p>
+            </div>
+          </div>
+        </div>
+
+    </div>
 </section>
 <section id="aporte">
   <div class="ban">
@@ -236,8 +267,7 @@
     <div id="apuesta"></div>
     <div class="bloque2">
         <div class="bloque2_bloque" >
-            <p style="color:#A60B12 !important;"><b>Con<span class="color-1">B</span>oca:El poder del llamado ciudadano</b> es la primera campaña de recolección de fondos de <b>Convoca</b>, que está enfocada en hacer crecer nuestra comunidad con el aporte de todos los ciudadanos a nivel global. Apostamos por el financiamiento colectivo para generar investigaciones con plena independencia y rigurosidad. Investigar el poder a fondo implica asumir altos riesgos y costos para cualquier grupo humano. En <b>Convoca</b> decidimos emprender ese camino porque creemos que si algún poder tiene el periodismo es cuando investiga, y este esfuerzo se potencia cuando se involucran los ciudadanos. </p>
-            <p style="color:#A60B12 !important;"> Creemos que necesitamos ser muchos para armar todas las piezas del rompecabezas de hechos ocultos que afectan nuestras vidas. A partir de hoy y durante 100 días puedes ser la voz de esta campaña para generar cambios con impacto global. Únete con el hashtag <b class="color-1">#ConBoca100mil</b> y conoce los beneficios de ser un embajador del periodismo independiente.</p>
+            <p style="color:#A60B12 !important;font-size:16px;">Necesitamos ser muchos para armar todas las piezas del rompecabezas de hechos ocultos que afectan nuestras vidas. Es por ello que necesitamos de tu ayuda para para generar cambios con impacto global...  ¡Sé un embajador del periodismo independiente! </p>
             <br><br>
             <div id="formulario">
 
@@ -435,21 +465,44 @@
 
                 <div class="item active" style="padding:0 50px;">
                     <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="http://conboca.convoca.pe/images/body/hora_conboca.jpg" alt="Los Angeles">
+                        <img class="image" src="img/horaconvoca.jpg" alt="Los Angeles">
                         <div class="">
                           <a href="#" target="_blank"><h3>La Hora Convoca</h3></a>
                           <p>Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="http://conboca.convoca.pe/images/body/aporteexperto.jpg" alt="Los Angeles">
+                        <img class="image" src="img/aportexperto.jpg" alt="Los Angeles">
                         <div class="">
                           <a href="#" target="_blank"><h3>Aportexperto</h3></a>
                           <p>Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
                         </div>
                     </div>
                     <div class="col-md-4 item-carousel-convoca">
-                        <img class="image" src="http://conboca.convoca.pe/images/body/duplaciudadana.jpg" alt="Los Angeles">
+                        <img class="image" src="img/dupla.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="#" target="_blank"><h3>Dupla Ciudadana</h3></a>
+                          <p>Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En esta sección, uniremos a un ciudadano y a un periodista para que trabajen juntos en un proyecto. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca ">
+                        <img class="image" src="img/horaconvoca.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="#" target="_blank"><h3>La Hora Convoca</h3></a>
+                          <p>Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca ">
+                        <img class="image" src="img/aportexperto.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="#" target="_blank"><h3>Aportexperto</h3></a>
+                          <p>Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 item-carousel-convoca">
+                        <img class="image" src="img/dupla.jpg" alt="Los Angeles">
                         <div class="">
                           <a href="#" target="_blank"><h3>Dupla Ciudadana</h3></a>
                           <p>Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En esta sección, uniremos a un ciudadano y a un periodista para que trabajen juntos en un proyecto. </p>
@@ -488,61 +541,61 @@
             <div class="carousel-inner">
                 <div class="item active" style="padding:0 30px;">
                     <div class="col-md-3 item-carousel-convoca conte">
-                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/abridoranota.png?itok=BXGaX-VO" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/8feb.jpg" alt="Los Angeles">
                         <div class="middle">
-                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                          <h4 style="color:#A60B12 !important;margin:5px;">8 de febrero :</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">3er Aniversario de Convoca</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte">
-                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/abridoranota.png?itok=BXGaX-VO" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/13feb.jpg" alt="Los Angeles">
                         <div class="middle">
-                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                          <h4 style="color:#A60B12 !important;margin:5px;">13 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Día Mundial de la Radio</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte" >
-                        <img class="image" style="height:160px;" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/portadaescuela.jpg?itok=p-X_RNqP" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/22feb.jpg" alt="Los Angeles">
                         <div class="middle">
-                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                          <h4 style="color:#A60B12 !important;margin:5px;">22 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Aniversario Radio Convoca</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte" >
-                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/finalisimounete.jpg?itok=DhbB9Ykr" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/prox.jpg" alt="Los Angeles">
                         <div class="middle">
-                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                          <h4 style="color:#A60B12 !important;margin:5px;">Proximamente :</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Curso online ¿Cómo producir podcast?</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="item" style="padding:0 30px;">
+                <div class="item " style="padding:0 30px;">
                     <div class="col-md-3 item-carousel-convoca conte">
-                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/abridoranota.png?itok=BXGaX-VO" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/8feb.jpg" alt="Los Angeles">
                         <div class="middle">
-                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                          <h4 style="color:#A60B12 !important;margin:5px;">8 de febrero :</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">3er Aniversario de Convoca</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte">
-                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/abridoranota.png?itok=BXGaX-VO" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/13feb.jpg" alt="Los Angeles">
                         <div class="middle">
-                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                          <h4 style="color:#A60B12 !important;margin:5px;">13 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Día Mundial de la Radio</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte" >
-                        <img class="image" style="height:160px;" src="http://www.convoca.pe/sites/default/files/styles/full_post/public/portadaescuela.jpg?itok=p-X_RNqP" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/22feb.jpg" alt="Los Angeles">
                         <div class="middle">
-                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                          <h4 style="color:#A60B12 !important;margin:5px;">22 de febrero</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Aniversario Radio Convoca</a></div>
                         </div>
                     </div>
                     <div class="col-md-3 item-carousel-convoca conte" >
-                        <img class="image" style="height:160px;" src="http://convoca.pe/sites/default/files/styles/full_post/public/finalisimounete.jpg?itok=DhbB9Ykr" alt="Los Angeles">
+                        <img class="image" style="height:160px;" src="img/prox.jpg" alt="Los Angeles">
                         <div class="middle">
-                          <h4 style="color:#A60B12 !important;margin:5px;">Martes 30 de febrero</h4>
-                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">DIY:Como hacer algo</a></div>
+                          <h4 style="color:#A60B12 !important;margin:5px;">Proximamente :</h4>
+                          <div class="text"><a href="#" style="text-decoration:none !important;color:#fff;" target="_blank">Curso online ¿Cómo producir podcast?</a></div>
                         </div>
                     </div>
                 </div>
@@ -558,9 +611,9 @@
         </div>
     </div>
 </section>
-<footer class="container-fluid" style="padding-bottom:15px;">
+<footer class="container-fluid" style="padding-bottom:5px;">
     <div class="row">
-        <div class="col-md-3 col-xs-12" style="margin-top:20px;">
+        <div class="col-md-3 col-xs-12" style="margin-top:40px;">
             <div class="row">
                 <div class="col-sm-12">
                     <p class="text-center">
@@ -575,7 +628,7 @@
                 Convoca © 2017 Todos los derechos reservados
             </p>
         </div>
-        <div class="col-xs-12 col-sm-2 col-md-2" style="margin-top:20px;">
+        <div class="col-xs-12 col-sm-1 col-md-1" style="margin-top:40px;">
             <div class="row">
                             <br class="hidden-xs">
                             <font color="red">
@@ -590,27 +643,32 @@
                             </p>
             </div>
         </div>
-        <div class="col-md-5 publicado" style="margin-top:20px;">
+        <div class="col-md-6 publicado"style="padding-left:60px;" >
             <div class="row">
                 <div class="col-xs- col-sm-12">
                     <p>
                         <br class="hidden-xs">
-                        <span>Responsable del proyecto: Milagros Salazar. <br>
-                  Reporteros: Óscar Libón, Gonzalo Torrico, Claudia Martorellet, Miguel Gutiérrez, Aramís Castro. <br>
-                  Diseño, ilustraciones y vídeos: Orlando Tapia <br>
-                  Podcast: Karla Velezomoro, Sonia Tello, Michelle Mogollón y Walter Dávila. <br>
-                  Desarrollo web: Benji Santos, Anthony Atauqui.
+                        <span> Rosa Milagros Salazar Herrera - Directora Convoca<br>
+                  Aramis Castro Ramos – Periodista <br>
+                  Óscar Rudy Libón Basurto - Investigador periodista <br>
+                  Maria Allasi Herrera- Administración y coordinadora de la Escuela Convoca<br>
+                  Benji Santos Quispe - Desarrollador<br>
+                  José Anthony Atauqui Tito - Asistente Desarrollador<br>
+                  Karla Paola Velezmoro Contreras - Directora de Convoca Radio<br>
+                  Raquel Virginia Tineo Ramos - Reportera y editora de audiencias<br>
+                  Cosseth Melanie Betetta Cabrera - Reportera y coordinadora de temas de transparencia , analisis de base de datos<br>
+                  Camila Araceli Alomia Zamudio - Asistente de redes sociales<br>
+                  Rosa Alejandra Lopez Valencia - Coordinadora de redes sociales<br>
                 </span>
-                        <br class="hidden-xs"><br class="hidden-xs">
+                        <br class="hidden-xs">
                         <span>
                   Si tienes alguna denuncia o quieres contactarte con nosotros búscanos en <span style="color:#EEA031;">info@convoca.pe</span>
                 </span>
-                        <br clear="visible-xs"><br clear="visible-xs">
                     </p>
                 </div>
             </div>
         </div>
-        <div class="col-md-2 col-xs-12">
+        <div class="col-md-2 col-xs-12" style="margin-top:20px;">
             <p style="font-size:10px;">
                 <br class="hidden-xs">
                 Convoca es miembro de:
@@ -622,7 +680,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
     // Configure/customize these variables.
-    var showChar = 330;  // How many characters are shown by default
+    var showChar = 328;  // How many characters are shown by default
     var ellipsestext = "...";
     var moretext = "Leer mas";
     var lesstext = "Leer menos";
