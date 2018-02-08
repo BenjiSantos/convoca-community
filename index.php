@@ -56,7 +56,7 @@
             </div>
             <div class="col-md-8 pad-banner">
                 <h1 style="font-size: 65px;font-weight:700;">COMUNIDAD CONVOCA</h1>
-                <p style="color:#fff;">Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
+                <p style="color:#fff;font-size:18px;">Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
                 de gran impacto para llegar a quienes nos gobiernan.</p>
                 <br>
                 <button class="btn btn-lg btn-danger" id="men-btn">Explorar</button>
