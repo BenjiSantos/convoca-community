@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>prueba de modal</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/modal.css">
+  </head>
+  <body>
+<section>
+  <div class="container">
+    <div class="row">
+      <!-- Button trigger modal -->
+        <a class="mod-a" data-toggle="modal" data-target="#myModal">
+          LA HORA CONVOCA
+        </a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+
+              </div>
+              <div class="modal-body">
+                <h2 class="modal-title text-center" id="myModalLabel">LA HORA CONVOCA</h2><br>
+                <p class="text-center">Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
+              </div>
+              <div class="modal-body">
+                <form role="form">
+                  <div class="form-group text-center">
+                    <p class="text-center">*Indica requerido</p>
+                    <label for="recipient-name" class="control-label">Nombre Completo*</label>
+                    <input type="text" class="form-control" id="nom">
+                  </div>
+                  <div class="form-group text-center">
+                    <label for="message-text" class="control-label">Correo*</label>
+                    <input type="email" class="form-control" id="correo">
+                  </div>
+                  <div class="form-group text-center">
+                    <label for="recipient-name" class="control-label">Facebook</label>
+                    <input type="text" class="form-control" id="fb">
+                  </div>
+                  <div class="form-group text-center">
+                    <label for="recipient-name" class="control-label">Twitter</label>
+                    <input type="text" class="form-control" id="tw">
+                  </div>
+                  <div class="form-group text-center">
+                    <button type="button" class="btn btn-danger-modal text-center" name="inscri" data-dismiss="modal">Inscribete</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+  </body>
+</html>

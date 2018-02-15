@@ -840,3 +840,9 @@ footer {
   display: inline-block;
   height: auto;
 }
+
+@media (max-width: 768px){
+.navbar-nav>li{
+  margin:0 5px ;
+}
+}

@@ -4,6 +4,32 @@
     <title>CONVOCA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, que trabaja en alianza con periodistas de América Latina y a escala global.">
+    <meta name="author" content="Convoca">
+
+
+          <!-- Schema.org markup for Google+ -->
+          <meta itemprop="name" content="Comunidad Convoca" />
+          <meta itemprop="description" content="Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, que trabaja en alianza con periodistas de América Latina y a escala global." />
+          <meta itemprop="image" content=" <a href='http://www.convoca.pe/comunidad/img/fotom.png'>http://www.convoca.pe/comunidad/img/fotom.png</a>" />
+
+          <!-- Twitter Card data -->
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="http://www.convoca.pe/comunidad/" />
+          <meta name="twitter:title" content="Comunidad Convoca" />
+          <meta name="twitter:description" content="Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, que trabaja en alianza con periodistas de América Latina y a escala global." />
+          <meta name="twitter:creator" content="Convoca" />
+          <!-- Twitter summary card with large image must be at least 280x150px -->
+          <meta name="twitter:image:src" content=" <a href='http://www.convoca.pe/comunidad/img/fotom.png'>http://www.convoca.pe/comunidad/img/fotom.png</a>" />
+
+          <!-- Open Graph data -->
+          <meta property="og:title" content="Comunidad Convoca" />
+          <meta property="og:type" content="article" />
+          <meta property="og:url" content="http://www.convoca.pe/comunidad/" />
+          <meta property=og:image content="http://www.convoca.pe/comunidad/img/fotom.png" />
+          <meta property="og:description" content="Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, que trabaja en alianza con periodistas de América Latina y a escala global." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -12,6 +38,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="iconmoon/style.css">
+    <link rel="stylesheet" href="css/modal.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         </head>
     <link type="text/javascript" href="js/code.js">
@@ -31,7 +58,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding: 5px 15px;border-bottom:3px solid #fff;background:#000;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header col-sm-3">
+        <div class="navbar-header col-sm-6 col-md-3">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -474,9 +501,10 @@
     <div class="container" style="margin-top:20px;margin-bottom:40px;">
         <h4 style="color:#A60B12 !important;font-size:16px;margin:20px 65px;">Ser parte de la Comunidad Convoca es sencillo, revisa aquí cómo puedes participar. Estas iniciativas seguirán creciendo con el aporte de todos.
 </h4>
+<!--
         <div id="mycarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner">
+  <!--          <div class="carousel-inner">
 
                 <div class="item active" style="padding:0 50px;">
                     <div class="col-md-4 item-carousel-convoca ">
@@ -527,7 +555,7 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control back-none" href="#mycarousel" data-slide="prev">
+      <!--      <a class="left carousel-control back-none" href="#mycarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
                 <span class="sr-only">Previous</span>
             </a>
@@ -536,6 +564,153 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+-->
+        <section class="modales" style="margin-left:65px; margin-right:65px;">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <img class="img-modal" src="img/horaconvoca.jpg" alt="Los Angeles">
+                <div class="">
+                  <a class="mod-a" data-toggle="modal" data-target="#myModal"><h3>La Hora Convoca</h3></a>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+
+                        </div>
+                        <div class="modal-body">
+                          <h2 class="modal-title text-center" id="myModalLabel">La Hora Convoca</h2><br>
+                          <p class="text-center">Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
+                        </div>
+                        <div class="modal-body">
+                          <form role="form">
+                            <div class="form-group text-center">
+                              <p class="text-center">*Indica requerido</p>
+                              <label for="recipient-name" class="control-label">Nombre Completo*</label>
+                              <input type="text" class="form-control" id="nom">
+                            </div>
+                            <div class="form-group text-center">
+                              <label for="message-text" class="control-label">Correo*</label>
+                              <input type="email" class="form-control" id="correo">
+                            </div>
+                            <div class="form-group text-center">
+                              <label for="recipient-name" class="control-label">Facebook</label>
+                              <input type="text" class="form-control" id="fb">
+                            </div>
+                            <div class="form-group text-center">
+                              <label for="recipient-name" class="control-label">Twitter</label>
+                              <input type="text" class="form-control" id="tw">
+                            </div>
+                            <div class="form-group text-center">
+                              <button type="button" class="btn btn-danger-modal text-center" name="inscri" data-dismiss="modal">Inscribete</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="p-modal">Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <img class="img-modal" src="img/aportexperto.jpg" alt="Los Angeles">
+                <div class="">
+                  <a class="mod-a" data-toggle="modal" data-target="#myModalaporte"><h3>Aportexperto</h3></a>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="myModalaporte" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+
+                        </div>
+                        <div class="modal-body">
+                          <h2 class="modal-title text-center" id="myModalLabel">Aportexperto</h2><br>
+                          <p class="text-center">Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
+                        </div>
+                        <div class="modal-body">
+                          <form role="form">
+                            <div class="form-group text-center">
+                              <p class="text-center">*Indica requerido</p>
+                              <label for="recipient-name" class="control-label">Nombre Completo*</label>
+                              <input type="text" class="form-control" id="nom">
+                            </div>
+                            <div class="form-group text-center">
+                              <label for="message-text" class="control-label">Correo*</label>
+                              <input type="email" class="form-control" id="correo">
+                            </div>
+                            <div class="form-group text-center">
+                              <label for="recipient-name" class="control-label">Especialidad</label>
+                              <input type="text" class="form-control" id="espe">
+                            </div>
+                            <div class="form-group text-center">
+                              <label for="recipient-name" class="control-label">¿De qué manera puedes participar?</label>
+                              <input type="text" class="form-control" id="ques">
+                            </div>
+                            <div class="form-group text-center">
+                              <button type="button" class="btn btn-danger-modal text-center" name="inscri" data-dismiss="modal">Inscribete</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="p-modal">Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <img class="img-modal" src="img/dupla.jpg" >
+                <div class="col-md-12">
+                  <a class="mod-a" data-toggle="modal" data-target="#myModaldupla"><h3>Dupla Ciudadana</h3></a>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="myModaldupla" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+
+                        </div>
+                        <div class="modal-body">
+                          <h2 class="modal-title text-center" id="myModalLabel">Dupla Ciudadana</h2><br>
+                          <p class="text-center">Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer.</p>
+                        </div>
+                        <div class="modal-body">
+                          <form role="form">
+                            <div class="form-group text-center">
+                              <p class="text-center">*Indica requerido</p>
+                              <label for="recipient-name" class="control-label">Nombre Completo*</label>
+                              <input type="text" class="form-control" id="nom">
+                            </div>
+                            <div class="form-group text-center">
+                              <label for="message-text" class="control-label">Correo*</label>
+                              <input type="email" class="form-control" id="correo">
+                            </div>
+                            <div class="form-group text-center" style="color:#fff;">
+                              <label for="recipient-name" class="control-label">Tipo de participante*</label><br>
+                              <input type="radio"  name="tipo" value="Periodista" ><br> Periodista<br>
+                              <input type="radio" name="tipo"  value="Ciudadano" ><br>Ciudadano<br>
+                            </div>
+                            <div class="form-group text-center">
+                              <label for="recipient-name" class="control-label">Cuéntanos lo que sabes</label>
+                              <input type="text" class="form-control" id="loque">
+                            </div>
+                            <div class="form-group text-center">
+                              <button type="button" class="btn btn-danger-modal text-center" name="inscri" data-dismiss="modal">Inscribete</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="p-modal">Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En esta sección, uniremos a un ciudadano y a un periodista para que trabajen juntos en un proyecto. </p>
+                </div>
+              </div>
+            </div>
+        </section>
     </div>
 </section>
 <section id="agenda">
