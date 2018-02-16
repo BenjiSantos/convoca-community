@@ -585,26 +585,26 @@
                           <p class="text-center">Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
                         </div>
                         <div class="modal-body">
-                          <form role="form">
+                          <form role="form" action="//convoca.us11.list-manage.com/subscribe/post?u=5446942b7720a11725a72c190&amp;id=6c4abd491a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div class="form-group text-center">
                               <p class="text-center">*Indica requerido</p>
                               <label for="recipient-name" class="control-label">Nombre Completo*</label>
-                              <input type="text" class="form-control" id="nom">
+                              <input type="text" class="form-control" value="" name="FNAME" id="mce-FNAME">
                             </div>
                             <div class="form-group text-center">
                               <label for="message-text" class="control-label">Correo*</label>
-                              <input type="email" class="form-control" id="correo">
+                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL">
                             </div>
                             <div class="form-group text-center">
                               <label for="recipient-name" class="control-label">Facebook</label>
-                              <input type="text" class="form-control" id="fb">
+                                <input type="text" value="" name="LFACE" class="form-control" id="mce-LFACE">
                             </div>
                             <div class="form-group text-center">
                               <label for="recipient-name" class="control-label">Twitter</label>
-                              <input type="text" class="form-control" id="tw">
+                                <input type="text" value="" name="LTWI" class="form-control" id="mce-LTWI">
                             </div>
                             <div class="form-group text-center">
-                              <button type="button" class="btn btn-danger-modal text-center" name="inscri" data-dismiss="modal">Inscribete</button>
+                              <input type="submit" value="Inscribete" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger-modal text-center">
                             </div>
                           </form>
                         </div>
@@ -632,26 +632,26 @@
                           <p class="text-center">Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
                         </div>
                         <div class="modal-body">
-                          <form role="form">
+                          <form role="form" action="//convoca.us11.list-manage.com/subscribe/post?u=5446942b7720a11725a72c190&amp;id=9698a1a9db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div class="form-group text-center">
                               <p class="text-center">*Indica requerido</p>
                               <label for="recipient-name" class="control-label">Nombre Completo*</label>
-                              <input type="text" class="form-control" id="nom">
+                                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
                             </div>
                             <div class="form-group text-center">
                               <label for="message-text" class="control-label">Correo*</label>
-                              <input type="email" class="form-control" id="correo">
+                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL">
                             </div>
                             <div class="form-group text-center">
                               <label for="recipient-name" class="control-label">Especialidad</label>
-                              <input type="text" class="form-control" id="espe">
+                                <input type="text" value="" name="LESP" class="form-control" id="mce-LESP">
                             </div>
                             <div class="form-group text-center">
                               <label for="recipient-name" class="control-label">¿De qué manera puedes participar?</label>
-                              <input type="text" class="form-control" id="ques">
+                                <input type="text" value="" name="MPRENT1" class="form-control" id="mce-MPRENT1">
                             </div>
                             <div class="form-group text-center">
-                              <button type="button" class="btn btn-danger-modal text-center" name="inscri" data-dismiss="modal">Inscribete</button>
+                                <input type="submit" value="Inscríbete" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger-modal text-center">
                             </div>
                           </form>
                         </div>
@@ -679,27 +679,27 @@
                           <p class="text-center">Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer.</p>
                         </div>
                         <div class="modal-body">
-                          <form role="form">
+                          <form role="form" action="//convoca.us11.list-manage.com/subscribe/post?u=5446942b7720a11725a72c190&amp;id=3f0b3b4f63" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div class="form-group text-center">
                               <p class="text-center">*Indica requerido</p>
                               <label for="recipient-name" class="control-label">Nombre Completo*</label>
-                              <input type="text" class="form-control" id="nom">
+                                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
                             </div>
                             <div class="form-group text-center">
                               <label for="message-text" class="control-label">Correo*</label>
-                              <input type="email" class="form-control" id="correo">
+                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL">
                             </div>
                             <div class="form-group text-center" style="color:#fff;">
                               <label for="recipient-name" class="control-label">Tipo de participante*</label><br>
-                              <input type="radio"  name="tipo" value="Periodista" ><br> Periodista<br>
-                              <input type="radio" name="tipo"  value="Ciudadano" ><br>Ciudadano<br>
+                                <input type="radio" value="Periodista" name="MMERGE2" id="mce-MMERGE2-0"><label for="mce-MMERGE2-0">Periodista</label>
+                                <input type="radio" value="Ciudadano" name="MMERGE2" id="mce-MMERGE2-1"><label for="mce-MMERGE2-1">Ciudadano</label>
                             </div>
                             <div class="form-group text-center">
                               <label for="recipient-name" class="control-label">Cuéntanos lo que sabes</label>
-                              <input type="text" class="form-control" id="loque">
+                                <input type="text" value="" name="MMERGE3" class="form-control" id="mce-MMERGE3">
                             </div>
                             <div class="form-group text-center">
-                              <button type="button" class="btn btn-danger-modal text-center" name="inscri" data-dismiss="modal">Inscribete</button>
+                                <input type="submit" value="Inscríbete" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger-modal text-center">
                             </div>
                           </form>
                         </div>
