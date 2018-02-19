@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Es">
 <head>
     <title>CONVOCA</title>
     <meta charset="utf-8">
@@ -29,19 +29,15 @@
           <meta property=og:image content="http://www.convoca.pe/comunidad/img/fotom.png" />
           <meta property="og:description" content="Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, que trabaja en alianza con periodistas de América Latina y a escala global." />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="iconmoon/style.css">
-    <link rel="stylesheet" href="css/modal.css">
+          <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+          <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" href="css/modal.css">
+          <link rel="stylesheet" href="iconmoon/style.css">
+          <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        </head>
-    <link type="text/javascript" href="js/code.js">
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -55,40 +51,40 @@
 
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding: 5px 15px;border-bottom:3px solid #fff;background:#000;">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header col-sm-6 col-md-3">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#probando" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a class="" href="/">
-                <img class="logo1"src="img/confe.png">
-                <img class="logo2"src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png">
-            </a>
-        </div>
+<section>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding: 5px 0px;border-bottom:3px solid #fff;background:#000;">
+      <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header col-sm-6 col-md-3">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#probando" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="" href="http://www.convoca.pe/comunidad/">
+                  <img class="logo1"src="img/confe.png">
+                  <img class="logo2"src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/convoca_logo.png">
+              </a>
+          </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="probando">
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="#men-btn" id="men-t">QUIÉNES SOMOS</a></li>
-                <li><a class="btn btn-danger" href="#aporte"  id="men-ti" >HAZ TU APORTE</a></li>
-                <li class=""><a href="#involucrarte"  id="men-t">CÓMO INVOLUCRARTE</a></li>
-                <li class=""><a href="#agenda"  id="men-t">AGENDA</a></li>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="probando">
+              <ul class="nav navbar-nav navbar-left">
+                  <li><a href="#men-btn" id="men-t">QUIÉNES SOMOS</a></li>
+                  <li><a class="btn btn-danger" href="#aporte"  id="men-ti" >HAZ TU APORTE</a></li>
+                  <li class=""><a href="#involucrarte"  id="men-t">CÓMO INVOLUCRARTE</a></li>
+                  <li class=""><a href="#agenda"  id="men-t">AGENDA</a></li>
+                </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://www.convoca.pe/comunidad/" id="men-t"><span class="icon-home"></span></a></li>
+                <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open('http://www.facebook.com/share.php?u='+dir2+'&amp;t='+tit2+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0" id="men-t"><span class="icon-facebook"></span></a></li>
+                <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open('http://twitter.com/?status='+tit2+'%20'+dir+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0" id="men-t"><span class="icon-twitter"></span></a></li>
               </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#inicio" id="men-t"><span class="icon-home"></span></a></li>
-              <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);var dir2= encodeURIComponent(dir);window.open('http://www.facebook.com/share.php?u='+dir2+'&amp;t='+tit2+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0" id="men-t"><span class="icon-facebook"></span></a></li>
-              <li><a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.open('http://twitter.com/?status='+tit2+'%20'+dir+'','ventana','width=600,height=400,left=50,top=50,toolbar=yes');void 0" id="men-t"><span class="icon-twitter"></span></a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-
-
+          </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+  </nav>
+</section>
 <section id="banner-home">
     <div class="container-fluid">
         <div class="row background-img">
@@ -118,7 +114,7 @@
       <p>Convoca es un medio digital de periodismo de investigación y análisis de datos hecho en Perú, que trabaja en alianza con periodistas de América Latina y a escala global. Une lo mejor de la tradición del oficio, el reporteo permanente, y la tecnología para investigar de manera sistemática las redes del poder y de la corrupción que afecta la vida de los ciudadanos, explora diversos formatos innovadores para llegar a una audiencia cada vez mayor y ha creado una escuela de investigación periodística para contribuir a potenciar el trabajo de los reporteros.<br><br>
         Ganador de los Data Journalism Awards 2016 en la categoría Newsapp (small newsroom), finalista del Premio Iberoamericano Gabriel García Márquez en las categorías Innovación (2016) y Mejor Cobertura Periodística (2017), ganador del Gran Premio Nacional de Periodismo 2017 en Perú y del Premio Nacional de Derechos Humanos y Periodismo 2017. Los periodistas de Convoca integraron el equipo ganador del Premio Excelencia Periodística de la Sociedad Interamericana de Prensa 2016 en la categoría “Relaciones Interamericanas” por una serie de reportajes sobre las inversiones de las empresas brasileñas en América Latina coordinado por la plataforma BRÍO y también formaron parte de la investigación global Panama Papers, ganadora del Premio Pulitzer 2017, que fue liderada por el Consorcio Internacional de Periodistas de Investigación (ICIJ, por sus siglas en inglés).
         Convoca empezó a publicar sus primeras investigaciones el 8 de febrero de 2015. Desde entonces trabaja de manera permanente en un modelo que permita hacer sostenible e independiente el trabajo periodístico con el apoyo de sus lectores.
-</p>
+      </p>
     </div>
     <div class="container bord" >
 
@@ -489,12 +485,6 @@
                     </div>
                     <input type="submit" value="Enviar datos" class="btn-datos" id="submit">
                 </form>
-
-                <script src="js/vendor/jquery-1.11.2.min.js"></script>
-
-                <script src="js/vendor/bootstrap.min.js"></script>
-                <script src="owl-carousel/owl.carousel.js"></script>
-
                 <script>
                     $('#myModal').on('shown.bs.modal', function () {
                         $('#myInput').focus()

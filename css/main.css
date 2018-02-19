@@ -239,7 +239,6 @@ footer {
 }
 
 .modal-header {
-    background: #E20613;
     color: #fff;
     font-weight: bolder;
     font-family: Coolvetica Rg;
@@ -252,9 +251,6 @@ footer {
     color: #fff;
 }
 
-.modal-dialog {
-    margin-top: 8em;
-}
 
 .fondo-negro {
     background: #000;
@@ -487,10 +483,6 @@ footer {
 
 }
 
-.modal-body p {
-    color: #000;
-    font-family: dinot;
-}
 
 .modal-body label {
     display: inline-block;
@@ -632,9 +624,9 @@ footer {
         margin: 10px auto 15px;
     }
     .modal-dialog {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
-        margin-top: 12em;
+        margin-top: 15px auto !important;
     }
 }
 @media(max-width: 600px) {
@@ -953,5 +945,11 @@ footer {
     }
     .fot-mien > .publicado{
       display: block !important;
+    }
+    .modal-mensaje{
+      width: 90% !important;
+    }
+    .navbar-nav{
+      text-align: center;
     }
 }

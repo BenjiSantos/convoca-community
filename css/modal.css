@@ -21,7 +21,7 @@ body{
 }
 .modal-header{
   padding: 0 15px;
-  background: #313231;
+  background: #313231 !important;
 }
 .close{
   color: #A60B12;
