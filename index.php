@@ -59,7 +59,7 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header col-sm-6 col-md-3">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#probando" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -72,7 +72,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="probando">
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="#men-btn" id="men-t">QUIÉNES SOMOS</a></li>
                 <li><a class="btn btn-danger" href="#aporte"  id="men-ti" >HAZ TU APORTE</a></li>
@@ -87,20 +87,22 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+
+
 <section id="banner-home">
     <div class="container-fluid">
         <div class="row background-img">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-0">
 
             </div>
-            <div class="col-md-8 pad-banner">
+            <div class="col-md-8 col-xs-12 pad-banner">
                 <h1 style="font-size: 65px;font-weight:700;">COMUNIDAD CONVOCA</h1>
                 <p style="color:#fff;font-size:18px;">Un espacio para los ciudadanos que buscan intercambiar información y expandir historias
                 de gran impacto para llegar a quienes nos gobiernan.</p>
                 <br>
                 <a class="btn btn-lg btn-danger" id="men-btn" href="#men-btn">Explorar</a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-0">
 
             </div>
         </div>
@@ -126,7 +128,7 @@
       <span class="more">El esfuerzo colaborativo y multidisciplinario es la esencia de Convoca. Somos un equipo de periodistas y programadores que trabajamos con profesionales de diversas disciplinas y generaciones para sacar a la luz aquellos hechos que ocultan las redes del poder y que afectan la vida de los ciudadanos. Apostamos por el trabajo en alianza para publicar investigaciones de alto impacto desde el Perú, donde la Amazonía sobrevive en casi el 60% del territorio del país en medio de la explotación de petróleo, los minerales y actividades como la tala, la minería ilegal y la trata de personas. El 50% de los conflictos sociales tiene como epicentro las zonas de extracción de los recursos naturales donde viven comunidades y poblaciones con los más altos índices de pobreza del país.</span>
     </div>
 </section>
-<section id="our-work" style="margin-bottom:30px;">
+<section id="our-work" style="margin-bottom:30px;" class="web">
     <div class="container-fluid">
         <div class="row">
           <div class="col-md-1">
@@ -134,7 +136,7 @@
           </div>
             <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
               <div  style="position:relative;color:#fff;">
-                <h1 style="margin-top:0px;">Nuestro trabajo</h1>
+                <h1 style="margin-top:0px;" class="tit-nues">Nuestro trabajo</h1>
               </div>
             </div>
         </div>
@@ -220,6 +222,120 @@
 <div class="col-sm-6 col-xs-12">
             <div class="embed-responsive embed-responsive-16by9">
 		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AZwF0f3h46s?rel=0&amp;controls=0&amp;showinfo=0"></iframe>
+	</div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <p style="color:#000 !important;margin-top:30px;">“ConBoca: El poder del llamado ciudadano” fue la primera campaña de recolección de fondos de Convoca, que estaba enfocada en hacer crecer nuestra comunidad con el aporta de todos los ciudadanos a nivel global. Apostamos por el financiamiento colectivo para generar investigaciones con plena independencia y rigurosidad. <br><br>
+    Investigar el poder a fondo implica asumir altos riesgos y costos para cualquier grupo humano. En Convoca decidimos emprender ese camino porque creemos que si algún poder tiene el periodismo es cuando investiga, y este esfuerzo se potencia cuando se involucran los ciudadanos.</p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+</section>
+<!--mobile-->
+<section id="our-work" style="margin-bottom:30px;" class="mobile-carou">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1">
+
+          </div>
+            <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
+              <div  style="position:relative;color:#fff;">
+                <h1 style="margin-top:0px;" class="tit-nues">Nuestro trabajo</h1>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="mobcarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca ">
+                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/interactivo/nota1/casos_emblematicos.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="http://memoriasdelacorrupcion.convoca.pe/" target="_blank"><h3>Memorias de la Corrupción</h3></a>
+                          <p><strong>‘Memorias de la corrupción’</strong> es un proyecto periodístico que reúne en una plataforma interactiva información de interés público sobre los principales casos de corrupción ocurridos en Perú en los últimos 40 años.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca ">
+                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/sombras-del-indulto/imagen/yukimori.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="http://memoriasdelacorrupcion.convoca.pe/sombras-del-indulto/" target="_blank"><h3>Sombras del Indulto</h3></a>
+                          <p>El indulto al exgobernante Alberto Fujimori, condenado a 25 años de prisión por crímenes contra los derechos humanos y corrupción, ha sido un tema que ha dividido a la opinión pública peruana en los últimos años. </p>
+                          </div>
+                    </div>
+                </div>
+                <div class="item" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca">
+                        <img class="image" src="http://convoca.pe/especiales/lava-jato-y-castillo-de-arena/img/andina.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="http://convoca.pe/especiales/lava-jato-y-castillo-de-arena/" target="_blank"><h3>Expediente Lavajato</h3></a>
+                          <p>Explora un centenar de publicaciones sobre pagos de sobornos y financiamiento de campaña de las constructoras brasileñas y sus socias peruanas a altos funcionarios, políticos y empresarios peruanos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://memoriasdelacorrupcion.convoca.pe/img/investiga-lavajato.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="https://investigalavajato.convoca.pe/" target="_blank"><h3>Investiga Lavajato</h3></a>
+                          <p>"Investiga Lava Jato" es un proyecto colaborativo de veinte periodistas de América Latina y África para investigar el caso de corrupción más importante en los últimos tiempos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="http://ilusionfiscal.convoca.pe/img/header.jpg" alt="Los Angeles">
+                        <div class="">
+                          <a href="http://ilusionfiscal.convoca.pe/" target="_blank"><h3>Ilusion Fiscal</h3></a>
+                          <p>Empresas offshore, paraísos fiscales y personajes que desarman el esquema tributario en Perú</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="padding:0 50px;">
+                    <div class="col-md-4 item-carousel-convoca conta">
+                        <img class="image" src="https://investigalavajato.convoca.pe/public/v3/assets/imgs/portada.jpg?v=1.2" alt="Los Angeles">
+                        <div class="">
+                          <a href="https://investigalavajato.convoca.pe/viasobrecosto" target="_blank"><h3>Vías sobre Costo</h3></a>
+                          <p>En esta primera etapa de la aplicación periodística #VíaSobrecosto, sigue la ruta de las obras de Odebrecht, conoce los incrementos de presupuesto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control back-none" href="#mobcarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control back-none" href="#mobcarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid" style="margin-top:40px;">
+        <div class="row">
+          <div class="col-md-1">
+
+          </div>
+            <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
+              <div  style="position:relative;color:#fff;">
+                <h1 style="margin-top:0px;" class="tit-nues">Lo que hemos logrado con tu aporte</h1>
+              </div>
+            </div>
+        </div>
+        <div class="container tex">
+          <div class="row">
+<div class="col-sm-6 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AZwF0f3h46s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
             </div>
             <div class="col-sm-6 col-xs-12">
@@ -328,7 +444,7 @@
                         </div>
                         <div class="form-inline">
                             <div class="form-group">
-                                <label for="">Monto</label>
+                                <label for="" style="color:#000;margin-left:20px;margin-right:20px;">Monto</label>
                                 <input type="text" name="monto_donacion" class="form-control" required>
                             </div>
                             <br>
@@ -356,14 +472,18 @@
 
 
                     <div class="form-group row">
-                        <label for="nombre_completo" class="col-xs-3 col-form-label form-donar">Nombre completo</label>
-                        <div class="col-xs-9">
+                        <div class="col-md-3 col-xs-12">
+                          <label for="nombre_completo" class=" col-form-label form-donar">Nombre completo</label>
+                        </div>
+                        <div class="col-md-9 col-xs-12">
                             <input class="form-control" type="text" name="nombre_completo" required>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="nombre_completo" class="col-xs-3 col-form-label form-donar">Correo electronico</label>
-                        <div class="col-xs-9">
+                      <div class="col-md-3 col-xs-12">
+                        <label for="nombre_completo" class=" col-form-label form-donar">Correo electronico</label>
+                      </div>
+                        <div class="col-md-9 col-xs-12">
                             <input class="form-control" type="text" name="correo" required>
                         </div>
                     </div>
@@ -426,7 +546,7 @@
             </div>
             <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
                 <div  style="position:relative;color:#fff;">
-                    <h1 style="margin-top:0px;">Los beneficios</h1>
+                    <h1 style="margin-top:0px;" class="tit-nues">Los beneficios</h1>
                 </div>
             </div>
         </div>
@@ -498,76 +618,12 @@
             <h1 class="martop-ban">CÓMO INVOLUCRARTE</h1>
         </div>
     </div>
-    <div class="container" style="margin-top:20px;margin-bottom:40px;">
+    <div class="container como-in" style="margin-top:20px;margin-bottom:40px;">
         <h4 style="color:#A60B12 !important;font-size:16px;margin:20px 65px;">Ser parte de la Comunidad Convoca es sencillo, revisa aquí cómo puedes participar. Estas iniciativas seguirán creciendo con el aporte de todos.
-</h4>
-<!--
-        <div id="mycarousel" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-  <!--          <div class="carousel-inner">
-
-                <div class="item active" style="padding:0 50px;">
-                    <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="img/horaconvoca.jpg" alt="Los Angeles">
-                        <div class="">
-                          <a  target="_blank"><h3>La Hora Convoca</h3></a>
-                          <p>Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="img/aportexperto.jpg" alt="Los Angeles">
-                        <div class="">
-                          <a  target="_blank"><h3>Aportexperto</h3></a>
-                          <p>Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 item-carousel-convoca">
-                        <img class="image" src="img/dupla.jpg" alt="Los Angeles">
-                        <div class="">
-                          <a  target="_blank"><h3>Dupla Ciudadana</h3></a>
-                          <p>Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En esta sección, uniremos a un ciudadano y a un periodista para que trabajen juntos en un proyecto. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="padding:0 50px;">
-                    <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="img/horaconvoca.jpg" alt="Los Angeles">
-                        <div class="">
-                          <a  target="_blank"><h3>La Hora Convoca</h3></a>
-                          <p>Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 item-carousel-convoca ">
-                        <img class="image" src="img/aportexperto.jpg" alt="Los Angeles">
-                        <div class="">
-                          <a  target="_blank"><h3>Aportexperto</h3></a>
-                          <p>Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 item-carousel-convoca">
-                        <img class="image" src="img/dupla.jpg" alt="Los Angeles">
-                        <div class="">
-                          <a  target="_blank"><h3>Dupla Ciudadana</h3></a>
-                          <p>Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En esta sección, uniremos a un ciudadano y a un periodista para que trabajen juntos en un proyecto. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-      <!--      <a class="left carousel-control back-none" href="#mycarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control back-none" href="#mycarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
--->
+        </h4>
         <section class="modales" style="margin-left:65px; margin-right:65px;">
             <div class="row">
-              <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="col-md-4 col-sm-4 col-xs-12 mod-bott">
                 <img class="img-modal" src="img/horaconvoca.jpg" alt="Los Angeles">
                 <div class="">
                   <a class="mod-a" data-toggle="modal" data-target="#myModal"><h3>La Hora Convoca</h3></a>
@@ -585,28 +641,47 @@
                           <p class="text-center">Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
                         </div>
                         <div class="modal-body">
-                          <form role="form" action="//convoca.us11.list-manage.com/subscribe/post?u=5446942b7720a11725a72c190&amp;id=6c4abd491a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div class="form-group text-center">
-                              <p class="text-center">*Indica requerido</p>
-                              <label for="recipient-name" class="control-label">Nombre Completo*</label>
-                              <input type="text" class="form-control" value="" name="FNAME" id="mce-FNAME">
+                          <!-- Begin MailChimp Signup Form -->
+                            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                            <style type="text/css">
+                            	#mc_embed_signup{color:#fff; clear:left; }
+                            	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                            </style>
+                            <div id="mc_embed_signup">
+                            <form action="https://convoca.us10.list-manage.com/subscribe/post?u=fc17bd11c5057fa37d40d1d4e&amp;id=65457de1b7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+
+                            <div class="indicates-required"><span class="asterisk">*</span> Indica requerido</div>
+                            <div class="mc-field-group">
+                            	<label for="mce-FNAME">Nombre Completo  <span class="asterisk">*</span>
+                            </label>
+                            	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" style="color:#000;">
                             </div>
-                            <div class="form-group text-center">
-                              <label for="message-text" class="control-label">Correo*</label>
-                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL">
+                            <div class="mc-field-group">
+                            	<label for="mce-EMAIL">Correo  <span class="asterisk">*</span>
+                            </label>
+                            	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="color:#000;">
                             </div>
-                            <div class="form-group text-center">
-                              <label for="recipient-name" class="control-label">Facebook</label>
-                                <input type="text" value="" name="LFACE" class="form-control" id="mce-LFACE">
+                            <div class="mc-field-group">
+                            	<label for="mce-LFACE">Facebook </label>
+                            	<input type="text" value="" name="LFACE" class="" id="mce-LFACE" style="color:#000;">
                             </div>
-                            <div class="form-group text-center">
-                              <label for="recipient-name" class="control-label">Twitter</label>
-                                <input type="text" value="" name="LTWI" class="form-control" id="mce-LTWI">
+                            <div class="mc-field-group">
+                            	<label for="mce-LTWI">Twitter </label>
+                            	<input type="text" value="" name="LTWI" class="" id="mce-LTWI" style="color:#000;">
                             </div>
-                            <div class="form-group text-center">
-                              <input type="submit" value="Inscribete" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger-modal text-center">
+                            	<div id="mce-responses" class="clear">
+                            		<div class="response" id="mce-error-response" style="display:none"></div>
+                            		<div class="response" id="mce-success-response" style="display:none"></div>
+                            	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fc17bd11c5057fa37d40d1d4e_65457de1b7" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Inscribete" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                </div>
+                            </form>
                             </div>
-                          </form>
+
+                            <!--End mc_embed_signup-->
                         </div>
                       </div>
                     </div>
@@ -614,7 +689,7 @@
                   <p class="p-modal">Las personas que se inscriban podrán unirse al lanzamiento y actividades de difusión de las investigaciones y productos generados por el equipo de Convoca y sus aliados. Los participantes podrán formar parte del equipo en estas actividades.</p>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="col-md-4 col-sm-4 col-xs-12 mod-bott">
                 <img class="img-modal" src="img/aportexperto.jpg" alt="Los Angeles">
                 <div class="">
                   <a class="mod-a" data-toggle="modal" data-target="#myModalaporte"><h3>Aportexperto</h3></a>
@@ -632,28 +707,43 @@
                           <p class="text-center">Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
                         </div>
                         <div class="modal-body">
-                          <form role="form" action="//convoca.us11.list-manage.com/subscribe/post?u=5446942b7720a11725a72c190&amp;id=9698a1a9db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div class="form-group text-center">
-                              <p class="text-center">*Indica requerido</p>
-                              <label for="recipient-name" class="control-label">Nombre Completo*</label>
-                                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
-                            </div>
-                            <div class="form-group text-center">
-                              <label for="message-text" class="control-label">Correo*</label>
-                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL">
-                            </div>
-                            <div class="form-group text-center">
-                              <label for="recipient-name" class="control-label">Especialidad</label>
-                                <input type="text" value="" name="LESP" class="form-control" id="mce-LESP">
-                            </div>
-                            <div class="form-group text-center">
-                              <label for="recipient-name" class="control-label">¿De qué manera puedes participar?</label>
-                                <input type="text" value="" name="MPRENT1" class="form-control" id="mce-MPRENT1">
-                            </div>
-                            <div class="form-group text-center">
-                                <input type="submit" value="Inscríbete" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger-modal text-center">
-                            </div>
+                                                    <!-- Begin MailChimp Signup Form -->
+                          <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                          <style type="text/css">
+                          	#mc_embed_signup{color:#fff;clear:left; }
+                          </style>
+                          <div id="mc_embed_signup">
+                          <form action="https://convoca.us10.list-manage.com/subscribe/post?u=fc17bd11c5057fa37d40d1d4e&amp;id=3590fd99a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                              <div id="mc_embed_signup_scroll">
+
+                          <div class="indicates-required"><span class="asterisk">*</span> Indica requerido</div>
+                          <div class="mc-field-group">
+                          	<label for="mce-FNAME">Nombre Completo  <span class="asterisk">*</span>
+                          </label>
+                          	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" style="color:#000;">
+                          </div>
+                          <div class="mc-field-group">
+                          	<label for="mce-EMAIL">Correo  <span class="asterisk">*</span>
+                          </label>
+                          	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="color:#000;">
+                          </div>
+                          <div class="mc-field-group">
+                          	<label for="mce-LESP">Especialidad </label>
+                          	<input type="text" value="" name="LESP" class="" id="mce-LESP" style="color:#000;">
+                          </div>
+                          <div class="mc-field-group">
+                          	<label for="mce-MPRENT1">¿De qué manera puedes participar? </label>
+                          	<input type="text" value="" name="MPRENT1" class="" id="mce-MPRENT1" style="color:#000;">
+                          </div>
+                          	<div id="mce-responses" class="clear">
+                          		<div class="response" id="mce-error-response" style="display:none"></div>
+                          		<div class="response" id="mce-success-response" style="display:none"></div>
+                          	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fc17bd11c5057fa37d40d1d4e_3590fd99a0" tabindex="-1" value=""></div>
+                              <div class="clear"><input type="submit" value="Inscribete" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                              </div>
                           </form>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -661,7 +751,7 @@
                   <p class="p-modal">Esta convocatoria está dirigida a profesionales o expertos que deseen contribuir con sus conocimientos en nuestros proyectos de investigación. Esto nos permitirá traducir y hurgar en hechos ocultos y complejos para presentar historias simples y potentes para los ciudadanos.</p>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="col-md-4 col-sm-4 col-xs-12 mod-bott">
                 <img class="img-modal" src="img/dupla.jpg" >
                 <div class="col-md-12">
                   <a class="mod-a" data-toggle="modal" data-target="#myModaldupla"><h3>Dupla Ciudadana</h3></a>
@@ -676,32 +766,53 @@
                         </div>
                         <div class="modal-body">
                           <h2 class="modal-title text-center" id="myModalLabel">Dupla Ciudadana</h2><br>
-                          <p class="text-center">Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer.</p>
+                          <p class="text-center">Para realizar cualquier investigación periodística es necesario partir de un dato disparador y nadie mejor que los ciudadanos para contarnos cuál es esa información que todos merecen conocer. En este espacio pueden participar todos aquellos periodistas y estudiantes de periodismo que estén dispuestos a aportar con lo que saben y los ciudadanos comprometidos que quieran involucrarse con un esfuerzo colaborativo. Convoca y sus aliados van a asesorar y difundir estos proyectos.</p>
                         </div>
                         <div class="modal-body">
-                          <form role="form" action="//convoca.us11.list-manage.com/subscribe/post?u=5446942b7720a11725a72c190&amp;id=3f0b3b4f63" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div class="form-group text-center">
-                              <p class="text-center">*Indica requerido</p>
-                              <label for="recipient-name" class="control-label">Nombre Completo*</label>
-                                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
-                            </div>
-                            <div class="form-group text-center">
-                              <label for="message-text" class="control-label">Correo*</label>
-                                <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL">
-                            </div>
-                            <div class="form-group text-center" style="color:#fff;">
-                              <label for="recipient-name" class="control-label">Tipo de participante*</label><br>
-                                <input type="radio" value="Periodista" name="MMERGE2" id="mce-MMERGE2-0"><label for="mce-MMERGE2-0">Periodista</label>
-                                <input type="radio" value="Ciudadano" name="MMERGE2" id="mce-MMERGE2-1"><label for="mce-MMERGE2-1">Ciudadano</label>
-                            </div>
-                            <div class="form-group text-center">
-                              <label for="recipient-name" class="control-label">Cuéntanos lo que sabes</label>
-                                <input type="text" value="" name="MMERGE3" class="form-control" id="mce-MMERGE3">
-                            </div>
-                            <div class="form-group text-center">
-                                <input type="submit" value="Inscríbete" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger-modal text-center">
-                            </div>
+                          <!-- Begin MailChimp Signup Form -->
+                          <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                          <style type="text/css">
+                          	#mc_embed_signup{color:#fff; clear:left; }
+                          	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                          	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                          </style>
+                          <div id="mc_embed_signup">
+                          <form action="https://convoca.us10.list-manage.com/subscribe/post?u=fc17bd11c5057fa37d40d1d4e&amp;id=c66d472fd8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                              <div id="mc_embed_signup_scroll">
+
+                          <div class="indicates-required"><span class="asterisk">*</span> Indica requerido</div>
+                          <div class="mc-field-group">
+                          	<label for="mce-FNAME">Nombre Completo  <span class="asterisk">*</span>
+                          </label>
+                          	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" style="color:#000;">
+                          </div>
+                          <div class="mc-field-group">
+                          	<label for="mce-EMAIL">Correo  <span class="asterisk">*</span>
+                          </label>
+                          	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="color:#000;">
+                          </div>
+                          <div class="mc-field-group input-group" style="text-align:center;">
+                              <strong>Tipo de participante  <span class="asterisk">*</span>
+                          </strong>
+                              <ul><li><input type="radio" value="Periodista" name="RPART" id="mce-RPART-0"><label for="mce-RPART-0" >Periodista</label></li>
+                          <li><input type="radio" value="Ciudadano" name="RPART" id="mce-RPART-1"><label for="mce-RPART-1" >Ciudadano</label></li>
+                          </ul>
+                          </div>
+                          <div class="mc-field-group">
+                          	<label for="mce-LSAB">Cuéntanos lo que sabes </label>
+                          	<input type="text" value="" name="LSAB" class="" id="mce-LSAB" style="color:#000;">
+                          </div>
+                          	<div id="mce-responses" class="clear">
+                          		<div class="response" id="mce-error-response" style="display:none"></div>
+                          		<div class="response" id="mce-success-response" style="display:none"></div>
+                          	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fc17bd11c5057fa37d40d1d4e_c66d472fd8" tabindex="-1" value=""></div>
+                              <div class="clear"><input type="submit" value="Inscribete" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                              </div>
                           </form>
+                          </div>
+
+                          <!--End mc_embed_signup-->
                         </div>
                       </div>
                     </div>
@@ -713,7 +824,7 @@
         </section>
     </div>
 </section>
-<section id="agenda">
+<section id="agenda" >
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-1">
@@ -721,12 +832,12 @@
             </div>
             <div class="col-md-11 ban" style="height:60px;background-position-y:50%;margin-bottom:30px;">
                 <div  style="position:relative;color:#fff;">
-                    <h1 style="margin-top:0px;">Agenda</h1>
+                    <h1 style="margin-top:0px;" class="tit-nues">Agenda</h1>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container" style="margin-top:15px;margin-bottom:40px;">
+    <div class="container age-web" style="margin-top:15px;margin-bottom:40px;">
         <div id="myCarouse" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active" style="padding:0 30px;">
@@ -800,10 +911,64 @@
             </a>
         </div>
     </div>
+  </div>
+    <div class="container age-mobile" style="margin-top:15px;margin-bottom:40px;">
+        <div id="myCarousemob" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active" style="padding:0 30px;">
+                    <div class="col-md-3 item-carousel-convoca conte">
+                        <img class="image" style="height:160px;" src="img/8feb.png" alt="Los Angeles">
+                        <div class="middle" >
+                          <h4 style="color:#A60B12 !important;margin:5px;">8 de febrero :</h4>
+                          <div class="text"><a style="text-decoration:none !important;color:#fff;" target="_blank">3er Aniversario de Convoca</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="padding:0 30px;">
+                    <div class="col-md-3 item-carousel-convoca conte">
+                        <img class="image" style="height:160px;" src="img/13feb.jpg" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">13 de febrero</h4>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank"> Programa radial especial con la Asociación Nacional de Periodistas por el día mundial de la radio</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="padding:0 30px;">
+                    <div class="col-md-3 item-carousel-convoca conte" >
+                        <img class="image" style="height:160px;" src="img/22feb.jpg" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">22 de febrero</h4>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank">Primer aniversario de Convoca Radio en el auditorio de la Asociación Nacional de Periodistas.</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="padding:0 30px;">
+                    <div class="col-md-3 item-carousel-convoca conte" >
+                        <img class="image" style="height:160px;" src="img/prox.jpg" alt="Los Angeles">
+                        <div class="middle">
+                          <h4 style="color:#A60B12 !important;margin:5px;">Proximamente :</h4>
+                          <div class="text"><a  style="text-decoration:none !important;color:#fff;" target="_blank">Curso Online: ¿Cómo producir un podcast? Con Karla Velezmoro</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+            <a class="left carousel-control" href="#myCarousemob" data-slide="prev" style="width: 5% !important; padding-top:10%;">
+                <span class="glyphicon glyphicon-chevron-left" ></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousemob" data-slide="next" style="width: 5% !important; padding-top:10%;">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+  </div>
 </section>
 <footer class="container-fluid" style="padding-bottom:5px;">
     <div class="row">
-        <div class="col-md-3 col-xs-12" style="margin-top:70px;">
+        <div class="col-md-3 col-xs-12 fot-log" style="margin-top:70px;">
             <div class="row">
                 <div class="col-sm-12">
                     <p class="text-center">
@@ -818,7 +983,7 @@
                 Convoca © 2017 Todos los derechos reservados
             </p>
         </div>
-        <div class="col-xs-12 col-sm-1 col-md-1" style="margin-top:70px;">
+        <div class="col-xs-12 col-sm-1 col-md-1 fot-ama" style="margin-top:70px;">
             <div class="row">
                             <br class="hidden-xs">
                             <font color="red">
@@ -833,9 +998,9 @@
                             </p>
             </div>
         </div>
-        <div class="col-md-6 publicado"style="padding-left:60px;" >
+        <div class="col-md-6 publicado" style="padding-left:60px;" >
             <div class="row">
-                <div class="col-xs- col-sm-12">
+                <div class="col-xs-12 col-sm-12">
                     <p>
                         <br class="hidden-xs">
                         <span>Milagros Salazar Herrera - Directora ejecutiva y periodística<br>
@@ -854,19 +1019,23 @@
                   Maria Allasi Herrera- Administración y coordinadora de la Escuela Convoca<br>
 
                 </span>
-                        <br class="hidden-xs">
-                        <span>
+                        <br class="">
+                        <span >
                   Si tienes alguna denuncia o quieres contactarte con nosotros búscanos en <span style="color:#EEA031;">info@convoca.pe</span>
                 </span>
                     </p>
                 </div>
             </div>
         </div>
-        <div class="col-md-2 col-xs-12" style="margin-top:40px;">
+        <div class="col-md-2 col-xs-12 fot-mien" style="margin-top:40px;">
             <p style="font-size:10px;">
                 <br class="hidden-xs">
                 Convoca es miembro de:
                 <img src="http://www.convoca.pe/sites/all/themes/theme930/images/GIJN_150x150.jpg" alt="" class="img-responsive" style="width:70%;">
+            </p>
+            <br class="hidden-md">
+            <p class="text-center  hidden-sm publicado" style="padding-left:4%;display:none;">
+                Convoca © 2017 Todos los derechos reservados
             </p>
         </div>
     </div>

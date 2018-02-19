@@ -233,8 +233,9 @@ footer {
 }
 
 .form-donar {
-    width: 150px !important;
-    padding-left: 20px !important;
+  margin-top: 10px;
+  margin-left: 20px;
+    color: #000 !important;
 }
 
 .modal-header {
@@ -840,9 +841,117 @@ footer {
   display: inline-block;
   height: auto;
 }
-
-@media (max-width: 768px){
-.navbar-nav>li{
-  margin:0 5px ;
+.mobile-carou{
+  display: none;
 }
+.item-carousel-convoca > div{
+  height: 150px !important;
+}
+.age-mobile{
+  display: none ;
+}
+#agenda .middle{
+  height: auto !important;
+}
+@media (max-width: 768px){
+    .navbar-nav>li{
+      margin:0 5px ;
+    }
+    .pad-banner{
+      padding-top: 160px !important;
+    }
+    .pad-banner > h1{
+      font-size: 40px !important;
+    }
+    .pad-banner > p{
+      font-size:14px !important;
+    }
+    .ban{
+      height: 100px !important;
+    }
+    .ban .container > .martop-ban{
+      font-size: 28px !important;
+      margin-top: 25px !important;
+    }
+    .tex-mas > h3{
+      text-align: center !important;
+    }
+    .tit-nues{
+      font-size: 28px !important;
+      text-align: center !important;
+      margin-top: 23px !important;
+    }
+    .navbar-toggle{
+      margin-right: 0 !important;
+    }
+    .web{
+      display: none !important;
+    }
+    .mobile-carou{
+      display: block !important;
+    }
+    .item-carousel-convoca > div{
+      height: 200px !important;
+    }
+    .ban .tit-nues{
+      margin-top: 10px !important;
+    }
+    .form-datos > .btn-datos{
+      margin-left: 25% !important;
+    }
+    #beneficios .tit-nues{
+      margin-top: 20px !important;
+    }
+    #involucrarte .martop-ban{
+      margin-top: 10px !important;
+    }
+    .como-in h4{
+      margin: 20px !important;
+    }
+    .modales {
+      margin-left: 25px !important;
+      margin-right: 25px !important;
+    }
+    .mod-bott{
+      margin-bottom: 20px !important;
+    }
+    #agenda .tit-nues{
+      margin-top: 23px !important;
+    }
+    .age-mobile{
+      display: block !important;
+    }
+    .age-web{
+      display: none !important;
+    }
+    .fot-log{
+      margin-top: 40px !important;
+    }
+    .fot-ama{
+      margin-top: 40px !important;
+      text-align: center;
+      margin-bottom: 30px !important;
+    }
+    .fot-ama .menu{
+      display: inline-flex !important;
+      border-left:none !important;
+    }
+    .publicado{
+      padding-left: 15px !important;
+      text-align: center !important;
+    }
+    .publicado > span{
+      text-align: center !important;
+    }
+    .fot-mien{
+      text-align: center !important;
+      margin-bottom: 20px !important;
+    }
+    .fot-mien img{
+      width: 50% !important;
+      margin-left: 25%;
+    }
+    .fot-mien > .publicado{
+      display: block !important;
+    }
 }
